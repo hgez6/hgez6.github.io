@@ -2,6 +2,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hgez6.github.io/sitemap.xml
-Sitemap: https://hgez6.github.io/baidusitemap.xml
+Sitemap: https://blog.juanertu.com/sitemap.xml
+Sitemap: https://blog.juanertu.com/baidusitemap.xml
 
