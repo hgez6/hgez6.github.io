@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hgez6.github.io/2022/01/01/%E4%B8%80%E7%A7%8D%E8%BD%BB%E9%87%8F%E5%8C%96%E4%BA%91%E7%AB%AF%E9%97%AD%E7%8E%AF%E8%AE%BE%E5%A4%87%E9%97%B4%E5%8D%8F%E5%90%8C%E7%AE%97%E6%B3%95%E8%AE%BE%E8%AE%A1/</loc>
+    
+    <lastmod>2022-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/2022/01/01/hello-world/</loc>
+    
+    <lastmod>2022-01-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hgez6.github.io/aboutweb/index.html</loc>
     
     <lastmod>2022-01-01</lastmod>
@@ -83,15 +101,6 @@
   </url>
   
   <url>
-    <loc>https://hgez6.github.io/2021/12/28/hello-world/</loc>
-    
-    <lastmod>2021-12-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hgez6.github.io/link/index.html</loc>
     
     <lastmod>2021-12-30</lastmod>
@@ -127,6 +136,55 @@
   </url>
 
   
+  <url>
+    <loc>https://hgez6.github.io/tags/%E5%88%9D%E5%A7%8B%E5%8C%96/</loc>
+    <lastmod>2022-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2022-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/tags/%E8%AE%BE%E5%A4%87%E5%8D%8F%E5%90%8C%E6%8A%80%E6%9C%AF/</loc>
+    <lastmod>2022-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/tags/%E4%BA%91%E7%AB%AF/</loc>
+    <lastmod>2022-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
+    <lastmod>2022-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://hgez6.github.io/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
+    <lastmod>2022-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/categories/%E7%89%A9%E8%81%94%E7%BD%91/</loc>
+    <lastmod>2022-01-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
