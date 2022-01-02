@@ -8,9 +8,27 @@
       <link href="/2022/01/02/GIT%E6%8C%87%E4%BB%A4%E7%AE%A1%E7%90%86%E4%BB%A3%E7%A0%81%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/"/>
       <url>/2022/01/02/GIT%E6%8C%87%E4%BB%A4%E7%AE%A1%E7%90%86%E4%BB%A3%E7%A0%81%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><p>安装GIT工具在指定目录右键<code>git init</code>初始化使其能被git工具上传，可用文件管理器进入目录或者使用<code>cd/xxx</code>终端挂载</p><h2 id="添加文件"><a href="#添加文件" class="headerlink" title="添加文件"></a>添加文件</h2><p>使用 <code>git add -A</code>或者<code>git add . </code>添加所有文件进暂存区，使用””可添加指定文件<code>git add &quot;readme.txt&quot;</code></p><h2 id="提交commit-修改"><a href="#提交commit-修改" class="headerlink" title="提交commit 修改"></a>提交commit 修改</h2><p>从Git的暂存区提交版本到仓库，参数-m后为当次提交的备注信息<br>git commit -m “1.0.0”</p><h2 id="推送到指定仓库"><a href="#推送到指定仓库" class="headerlink" title="推送到指定仓库"></a>推送到指定仓库</h2><p>将本地的Git仓库信息推送上传到服务器<br><code>git push https://gitee.com/***/test.git</code><br>或者先关联远程git服务器(推荐)<br><code>git remote add origin https://gitee.com/xxx/xx.git</code> 然后 <code>git push  origin master</code>后面的master为分支对于多分支类型可以引用其他分支 然后合并 <code>git-merge</code></p><h3 id="错误处理"><a href="#错误处理" class="headerlink" title="错误处理"></a>错误处理</h3><p>遇到无法push的情况通常由于远端存在的文件类型与本地不一致可使用<code>git pull origin master</code>如果远端文件不重要直接删除即可push;<br>也可能是git分支类型判断错误使用<code>git pull origin master --allow-unrelated-histories</code>可解决或者强行合并<code>git push -f origin master</code></p><mark class="hl-label grenn">参考链接</mark> <p><a href="https://gitee.com/help/articles/4114#article-header0">gitee git基本用法</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> 代码云管理 </category>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> gitee </tag>
+            
+            <tag> 教程 </tag>
+            
+            <tag> 记录 </tag>
+            
+        </tags>
       
     </entry>
     
