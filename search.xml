@@ -13,20 +13,20 @@
       
       <categories>
           
-          <category> 开源 </category>
-          
           <category> C++ </category>
           
           <category> 学习记录 </category>
+          
+          <category> 开源 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 通讯录 </tag>
-            
             <tag> 结构体指针 </tag>
+            
+            <tag> 通讯录 </tag>
             
         </tags>
       
@@ -158,11 +158,11 @@
       
       <categories>
           
+          <category> 开源 </category>
+          
           <category> 安卓 </category>
           
           <category> Shell </category>
-          
-          <category> 开源 </category>
           
       </categories>
       
