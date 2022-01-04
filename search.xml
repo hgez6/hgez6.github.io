@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>现场总线PSE通讯-OPC远控-XT断路器总结</title>
+      <link href="/posts/9f237e38/"/>
+      <url>/posts/9f237e38/</url>
+      
+        <content type="html"><![CDATA[<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p>本来想用markdown写的但是用word写完了，加上我很忙，又什么都学的不精，也不想在花时间在打字上了。<br>嘿嘿</p><blockquote><p>就在博客上灌个水吧。😂</p></blockquote><h3 id="当然还是开源的我也会把word文档放出来"><a href="#当然还是开源的我也会把word文档放出来" class="headerlink" title="当然还是开源的我也会把word文档放出来"></a>当然还是开源的我也会把word文档放出来</h3>  <a class="btn-beautify button--animated " href="https://github.com/hgez6/ABB-modbus"   title="如果有兴趣源码文档都在这里"><i class="far fa-hand-point-right"></i><span>如果有兴趣源码文档都在这里</span></a>  <mark class="hl-label green">不说了睡了!</mark> ]]></content>
+      
+      
+      <categories>
+          
+          <category> 电气自动化，现场总线 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 开源 </tag>
+            
+            <tag> 外链 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>C++通讯录编程学习记录</title>
       <link href="/posts/7025eb1e/"/>
       <url>/posts/7025eb1e/</url>
@@ -39,7 +66,7 @@
       <link href="/posts/3e4c68da/"/>
       <url>/posts/3e4c68da/</url>
       
-        <content type="html"><![CDATA[<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><p>安装GIT工具在指定目录右键<code>git init</code>初始化使其能被git工具上传，可用文件管理器进入目录或者使用<code>cd/xxx</code>终端挂载</p><h2 id="添加文件"><a href="#添加文件" class="headerlink" title="添加文件"></a>添加文件</h2><p>使用 <code>git add -A</code>或者<code>git add . </code>添加所有文件进暂存区，使用””可添加指定文件<code>git add &quot;readme.txt&quot;</code></p><h2 id="提交commit-修改"><a href="#提交commit-修改" class="headerlink" title="提交commit 修改"></a>提交commit 修改</h2><p>从Git的暂存区提交版本到仓库，参数-m后为当次提交的备注信息<br>  <code>git commit -m &quot;1.0.0&quot;</code></p><h2 id="推送到指定仓库"><a href="#推送到指定仓库" class="headerlink" title="推送到指定仓库"></a>推送到指定仓库</h2><p>将本地的Git仓库信息推送上传到服务器<br><code>git push https://gitee.com/***/test.git</code></p><p>或者先关联远程git服务器(推荐)</p><p><code>git remote add origin https://gitee.com/xxx/xx.git</code><br>然后 <code>git push  origin master</code>后面的master为分支对于多分支类型可以引用其他分支 然后合并 <code>git-merge</code></p><h3 id="错误处理"><a href="#错误处理" class="headerlink" title="错误处理"></a>错误处理</h3><p>&emsp;&emsp;遇到无法push的情况通常由于远端存在的文件类型与本地不一致可使用<code>git pull origin master</code></p><p>&emsp;&emsp;如果远端文件不重要直接删除即可push;也可能是git分支类型判断错误，使用<br><code>git pull origin master --allow-unrelated-histories</code><br>可解决或者强行合并<code>git push -f origin master</code><br>遇到仓库不一致的情况要先删掉原来的仓库<code>git remote rm origin</code>再重新add。</p><h2 id="白嫖代码"><a href="#白嫖代码" class="headerlink" title="白嫖代码"></a>白嫖代码</h2><blockquote><p>白嫖总是让人开心~<br>所以熟练掌握白嫖的奥义灵活运用是相当重要的！<br>&emsp;&emsp;通过<code>git clone &#123;仓库的url&#125;</code>白嫖代码，也可直接下载zip包(推荐因为这样能调用第三方下载器例如idm 64线程下载)解压后再进行<code>git init</code>即可。</p></blockquote><p>&emsp;&emsp;对于支持npm包管理的插件除了下载整个仓库外；还可以直接<code>npm install &#123;packname&#125;</code>或者<code>yarn install &#123;packname&#125;</code>(高版本)，根据实际情况末尾添加<code>--save</code>或者其他参数。<br>关于环境<br>白嫖的代码环境肯定不与你的一致，所以要灵活运用，也可直接看package.json内详细插件和依赖的参数来做判断 在用<code>npm install &#123;packname&#125;@x.x.x(版本)</code>即可。<br>有些文件后缀内不存代码github无法解析会改后缀但是没关系，因为代码才是核心。</p><mark class="hl-label green">参考链接</mark> <p><a href="https://gitee.com/help/articles/4114#article-header0">gitee git基本用法</a></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><p>安装GIT工具在指定目录右键<code>git init</code>初始化使其能被git工具上传，可用文件管理器进入目录或者使用<code>cd/xxx</code>终端挂载</p><h2 id="添加文件"><a href="#添加文件" class="headerlink" title="添加文件"></a>添加文件</h2><p>使用 <code>git add -A</code>或者<code>git add . </code>添加所有文件进暂存区，使用””可添加指定文件<code>git add &quot;readme.txt&quot;</code></p><h2 id="提交commit-修改"><a href="#提交commit-修改" class="headerlink" title="提交commit 修改"></a>提交commit 修改</h2><p>从Git的暂存区提交版本到仓库，参数-m后为当次提交的备注信息<br>  <code>git commit -m &quot;1.0.0&quot;</code></p><h2 id="推送到指定仓库"><a href="#推送到指定仓库" class="headerlink" title="推送到指定仓库"></a>推送到指定仓库</h2><p>将本地的Git仓库信息推送上传到服务器<br><code>git push https://gitee.com/***/test.git</code></p><p>或者先关联远程git服务器(推荐)</p><p><code>git remote add origin https://gitee.com/xxx/xx.git</code><br>然后 <code>git push  origin master</code>后面的master为分支对于多分支类型可以引用其他分支 然后合并 <code>git-merge</code></p><h3 id="错误处理"><a href="#错误处理" class="headerlink" title="错误处理"></a>错误处理</h3><p>&emsp;&emsp;遇到无法push的情况通常由于远端存在的文件类型与本地不一致可使用<code>git pull origin master</code></p><p>&emsp;&emsp;如果远端文件不重要直接删除即可push;也可能是git分支类型判断错误，使用<br><code>git pull origin master --allow-unrelated-histories</code><br>可解决或者强行合并<code>git push -f origin master</code><br>注意在github上云分支默认为<code>Main</code>但是本地还是<code>master</code></p><ul><li>[x]所以要先将本地的仓库改名使用</li><li>[x]改云仓库为master也可(推荐)</li><li><code>git branch -m master main</code><br>即可！<br>遇到仓库不一致的情况要先删掉原来的仓库<code>git remote rm origin</code>再重新add。<h2 id="白嫖代码"><a href="#白嫖代码" class="headerlink" title="白嫖代码"></a>白嫖代码</h2><blockquote><p>白嫖总是让人开心~<br>所以熟练掌握白嫖的奥义灵活运用是相当重要的！<br>&emsp;&emsp;通过<code>git clone &#123;仓库的url&#125;</code>白嫖代码，也可直接下载zip包(推荐因为这样能调用第三方下载器例如idm 64线程下载)解压后再进行<code>git init</code>即可。</p></blockquote></li></ul><p>&emsp;&emsp;对于支持npm包管理的插件除了下载整个仓库外；还可以直接<code>npm install &#123;packname&#125;</code>或者<code>yarn install &#123;packname&#125;</code>(高版本)，根据实际情况末尾添加<code>--save</code>或者其他参数。<br>关于环境<br>白嫖的代码环境肯定不与你的一致，所以要灵活运用，也可直接看package.json内详细插件和依赖的参数来做判断 在用<code>npm install &#123;packname&#125;@x.x.x(版本)</code>即可。<br>有些文件后缀内不存代码github无法解析会改后缀但是没关系，因为代码才是核心。</p><mark class="hl-label green">参考链接</mark> <p><a href="https://gitee.com/help/articles/4114#article-header0">gitee git基本用法</a></p>]]></content>
       
       
       <categories>
