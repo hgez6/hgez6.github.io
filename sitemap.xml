@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hgez6.github.io/posts/9ce7577d/</loc>
+    
+    <lastmod>2022-01-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hgez6.github.io/posts/5d2487d7/</loc>
     
     <lastmod>2022-01-05</lastmod>
@@ -298,14 +307,14 @@
   </url>
   
   <url>
-    <loc>https://hgez6.github.io/tags/%E5%BC%80%E6%BA%90/</loc>
+    <loc>https://hgez6.github.io/tags/%E5%A4%96%E9%93%BE/</loc>
     <lastmod>2022-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hgez6.github.io/tags/%E5%A4%96%E9%93%BE/</loc>
+    <loc>https://hgez6.github.io/tags/C/</loc>
     <lastmod>2022-01-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

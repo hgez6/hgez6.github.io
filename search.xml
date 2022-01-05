@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>CPP封装对象特性学习记录</title>
+      <link href="/posts/9ce7577d/"/>
+      <url>/posts/9ce7577d/</url>
+      
+        <content type="html"><![CDATA[<div class="note info simple"><p>本人将持续在这里更新C++学习记录  </p></div><mark class="hl-label bule">[看到这里啦](https://www.bilibili.com/video/BV1et411b73Z?p=105)</mark> ]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习记录 </category>
+          
+          <category> 开源 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>CPP学习记录(1/5)对象</title>
       <link href="/posts/5d2487d7/"/>
       <url>/posts/5d2487d7/</url>
@@ -22,7 +49,7 @@
       
         <tags>
             
-            <tag> 开源 </tag>
+            <tag> C++ </tag>
             
         </tags>
       
