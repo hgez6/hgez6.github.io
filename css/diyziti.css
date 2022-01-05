@@ -3,20 +3,16 @@
     src:url('/fonts/diyziti.ttf'); /* 字体文件路径 */
     font-display : swap;
   }
-  @font-face{
-    font-family:'diybtziti' ;  /* 字体名自定义即可 */
-    src:url('/fonts/diybtziti.ttf'); /* 字体文件路径 */
-    font-display : swap;
-  }
+
   /* body  */
 
 #article-container {
   font-family: 'diyziti';
 }
 
-h1#front {
+/* h1#front {
     font-family: 'diybtziti', sans-serif;
-  }
+  } */
 
   /*10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果*/
 /* #page-header,
