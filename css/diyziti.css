@@ -1,0 +1,40 @@
+@font-face{
+    font-family:'diyxshu' ;  
+   src:url('/fonts/diyxingshu.ttf'); 
+     font-display: swap; 
+ 
+ } 
+
+  /* body  
+
+/* #article-container {
+  font-family: 'diyziti';
+}  */
+
+h1#front {
+    font-family: 'diyziti';
+  }  
+
+  /*10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果*/
+  #page-header.post-bg,
+#web_bg {
+    -webkit-animation: imgblur .2s 1 ease-in-out;
+    animation: imgblur 1s 1 ease-in-out;
+}
+@keyframes imgblur {
+  0% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(5px);
+  }
+}
+
+ @-webkit-keyframes imgblur {
+  0% {
+    -webkit-filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(5px);
+  }
+} 
