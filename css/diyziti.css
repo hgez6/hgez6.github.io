@@ -1,9 +1,9 @@
- @font-face{
-    font-family:'diyziti' ;  /* 字体名自定义即可 */
+ /* @font-face{
+    font-family:'diyziti' ;  
    src:url('/fonts/diyziti.ttf'); 
      font-display: swap; 
  
- }
+ } */
 
   /* body  
 
@@ -11,9 +11,9 @@
   font-family: 'diyziti';
 }  */
 
- h1#front {
+ /* h1#front {
     font-family: 'diyziti';
-  }  
+  }   */
 
   /*10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果*/
 /* #page-header,
