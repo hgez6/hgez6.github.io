@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://hgez6.github.io/posts/6c8a0937/</loc>
+    <loc>https://hgez6.github.io/posts/2d59519/</loc>
+    
+    <lastmod>2022-01-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/posts/93ba12d5/</loc>
     
     <lastmod>2022-01-06</lastmod>
     
@@ -12,6 +21,15 @@
   
   <url>
     <loc>https://hgez6.github.io/posts/2bf5f316/</loc>
+    
+    <lastmod>2022-01-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/posts/6c8a0937/</loc>
     
     <lastmod>2022-01-06</lastmod>
     
@@ -39,15 +57,6 @@
   
   <url>
     <loc>https://hgez6.github.io/posts/ece2a325/</loc>
-    
-    <lastmod>2022-01-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hgez6.github.io/posts/93ba12d5/</loc>
     
     <lastmod>2022-01-05</lastmod>
     
