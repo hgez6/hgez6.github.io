@@ -18,8 +18,8 @@ h1#site-title {
     font-family: 'diyxingshu';
   }  
 
-  /* 10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果
-  #page-header.post-bg,
+  /* 10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果  #page-header.post-bg,*/
+/* #recent-posts > .recent-post-item .post_cover img.post_bg:hover
 #web_bg {
     -webkit-animation: imgblur .5s 1 ease-in-out;
     animation: imgblur .5s 1 ease-in-out;
@@ -40,4 +40,14 @@ h1#site-title {
   100% {
     -webkit-filter: blur(0px);
   }
-}  */
+}   */
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+}
