@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hgez6.github.io/posts/63350/</loc>
+    
+    <lastmod>2022-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/posts/31340fd5/</loc>
+    
+    <lastmod>2022-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/posts/fe197273/</loc>
+    
+    <lastmod>2022-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/posts/fc1fa1d4/</loc>
+    
+    <lastmod>2022-01-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hgez6.github.io/aboutweb/index.html</loc>
     
     <lastmod>2022-01-10</lastmod>
@@ -23,15 +59,6 @@
     <loc>https://hgez6.github.io/music/index.html</loc>
     
     <lastmod>2022-01-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hgez6.github.io/posts/31340fd5/</loc>
-    
-    <lastmod>2022-01-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -203,15 +230,6 @@
     <loc>https://hgez6.github.io/Bmovies/index.html</loc>
     
     <lastmod>2022-01-04</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hgez6.github.io/posts/63350/</loc>
-    
-    <lastmod>2022-01-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -463,6 +481,34 @@
   </url>
   
   <url>
+    <loc>https://hgez6.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2022-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/tags/%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2022-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/tags/Serverless%E4%BA%91%E9%83%A8%E7%BD%B2/</loc>
+    <lastmod>2022-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/tags/%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2022-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hgez6.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -599,6 +645,20 @@
   
   <url>
     <loc>https://hgez6.github.io/categories/%E8%A7%A3%E7%A0%81/</loc>
+    <lastmod>2022-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</loc>
+    <lastmod>2022-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/categories/%E5%89%8D%E7%AB%AF/git/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
