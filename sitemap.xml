@@ -411,6 +411,20 @@
   </url>
   
   <url>
+    <loc>https://hgez6.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+    <lastmod>2022-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/tags/%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2022-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hgez6.github.io/tags/%E8%AE%BE%E5%A4%87%E5%8D%8F%E5%90%8C%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -426,20 +440,6 @@
   
   <url>
     <loc>https://hgez6.github.io/tags/%E5%8F%AF%E8%A7%86%E5%8C%96/</loc>
-    <lastmod>2022-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hgez6.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2022-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hgez6.github.io/tags/%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -574,13 +574,6 @@
   </url>
   
   <url>
-    <loc>https://hgez6.github.io/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/Arduino/</loc>
-    <lastmod>2022-01-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://hgez6.github.io/categories/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -588,7 +581,7 @@
   </url>
   
   <url>
-    <loc>https://hgez6.github.io/categories/%E6%9C%BA%E6%A2%B0%E5%88%B6%E9%80%A0/</loc>
+    <loc>https://hgez6.github.io/categories/%E5%B5%8C%E5%85%A5%E5%BC%8F/Arduino/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -637,7 +630,7 @@
   </url>
   
   <url>
-    <loc>https://hgez6.github.io/categories/%E6%9C%BA%E6%A2%B0%E5%88%B6%E9%80%A0/%E6%95%B0%E6%8E%A7%E6%9C%BA%E5%BA%8A/</loc>
+    <loc>https://hgez6.github.io/categories/%E6%9C%BA%E6%A2%B0%E5%88%B6%E9%80%A0/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -652,6 +645,13 @@
   
   <url>
     <loc>https://hgez6.github.io/categories/%E5%AE%89%E5%8D%93/</loc>
+    <lastmod>2022-01-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hgez6.github.io/categories/%E6%9C%BA%E6%A2%B0%E5%88%B6%E9%80%A0/%E6%95%B0%E6%8E%A7%E6%9C%BA%E5%BA%8A/</loc>
     <lastmod>2022-01-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
