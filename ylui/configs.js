@@ -1,11 +1,11 @@
 YL.static = {
   /** “关于”信息 */
-  softwareName: 'YLUI DEMO', //网站名。请在此处填写您自己的网站名，如王小明的博客。
+  softwareName: '大鸟滴云桌面', //网站名。请在此处填写您自己的网站名，如王小明的博客。
   version: "1.0.0", // 网站版本号
   iconBtnStart: 'html5', //主图标
-  author: 'null',//作者
+  author: '本大鸟就是玩！',//作者
   contactInformation: 'null',//联系方式
-  officialWebsite: '//null',//软件官网
+  officialWebsite: 'https://hgez6.github.io',//软件官网
   welcome: '本网站UI由 YLUI 强力驱动\n更多信息：//ylui.yuri2.cn',//加载完毕控制台提示信息
   copyrightDetail: 'null',//版权详细信息
   otherStatements: '',//其他信息（可留空）

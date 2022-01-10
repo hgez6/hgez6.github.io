@@ -415,7 +415,7 @@ YL.render = function (data) {
         if (first && !YL.static.serialNumber) {
           YL.onReady(function () {
             setTimeout(function () {
-              YL.msg("欢迎访问大鸟云桌面~"+"By YLUI社区版" );//+ YL.info.version + " 社区版", '祝你好运来！！！666666~'
+              YL.msg("欢迎访问大鸟云桌面~"+"祝您天天开心！" );//+ YL.info.version + " 社区版", '祝你好运来！！！666666~'
             }, 1500)
           });
         }
