@@ -4,6 +4,62 @@
   
     
     <entry>
+      <title>不定积分重要方法总结--区间再现，区间平移，华氏公式</title>
+      <link href="/posts/fc1fa1d4/"/>
+      <url>/posts/fc1fa1d4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="区间再现，区间平移，华氏公式，是不定积分的重要公式没有之一"><a href="#区间再现，区间平移，华氏公式，是不定积分的重要公式没有之一" class="headerlink" title="区间再现，区间平移，华氏公式，是不定积分的重要公式没有之一"></a>区间再现，区间平移，华氏公式，是不定积分的重要公式没有之一</h1><p>注意他们的使用条件：</p><h2 id="区间再现"><a href="#区间再现" class="headerlink" title="区间再现"></a>区间再现</h2><ol><li>对任何函数成立<h2 id="区间平移"><a href="#区间平移" class="headerlink" title="区间平移"></a>区间平移</h2>区间平移指的是以T为单位平移，仅仅对整体是周期函数有效。<br>如果整体不是周期函数，而子函数存在周期函数，可以用换元法进行模拟区间平移来判断他们的关系。(有点像仿射变换)<h2 id="华氏公式-点火公式"><a href="#华氏公式-点火公式" class="headerlink" title="华氏公式(点火公式)"></a>华氏公式(点火公式)</h2>点火公式仅仅是0-π/2的情况，其他情况处理见 张宇基础30 P130页。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 高等数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>单serverless服务分布式部署的思考--以githubPage为例</title>
+      <link href="/posts/fe197273/"/>
+      <url>/posts/fe197273/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>自从花了几天用hexo在githubPage上部署了博客，虽然技术含量很低，但我感觉很有意思。<br>githubPage作为一种Serverless服务之一，我认为功能不仅仅只能是部署一个博客！<br>事实上也是如此，经过云电脑的验证，githubPage可以整合任意的静态界面，然后通过URL引用的方式互相跳转。<br>这里的引用可以是：</p><ol><li>githubpage下的子目录相对引用例如<code>xxx.github.io./文件夹</code></li><li>也可以在同一个项目下，使用其本身语法进行相对引用(比如hexo项目下生成的博客，页面内互相跳转也有自己的语法)<br>绝对引用输入完整的URL那就更不用多说了。<h2 id="单serverless服务分布式部署"><a href="#单serverless服务分布式部署" class="headerlink" title="单serverless服务分布式部署"></a>单serverless服务分布式部署</h2>以githubPage为例，可以添加子文件夹，然后将你想要部署的不同类型静态页面添加到子文件夹，用上面的引用方法跳转。<h2 id="已知BUG"><a href="#已知BUG" class="headerlink" title="已知BUG"></a>已知BUG</h2>hexo的deloy服务有可能会把不同部署的子文件夹覆盖掉(hexo deploy好像是一整个覆盖)<br>只能使用<code>git pull origin main --allow-unrelated-histories</code>在不同类型静态页面添加到子文件夹目录再拉取一次<br>然后冲洗add , commit ,push上传</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Serverless云部署 </tag>
+            
+            <tag> 经验总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>PLC顺控并行指令伪多线程</title>
       <link href="/posts/31340fd5/"/>
       <url>/posts/31340fd5/</url>
@@ -24,7 +80,7 @@
       
         <tags>
             
-            <tag> -多线程 </tag>
+            <tag> 多线程 </tag>
             
         </tags>
       

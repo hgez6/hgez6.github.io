@@ -179,6 +179,39 @@
       "customTile": "",
       "urlRandomToken": true
     },
+    "hgez6": {
+      "addressBar": true,
+      "autoRun": 0,
+      "background": false,
+      "badge": 0,
+      "desc": "欢迎访问大鸟博客",
+      "icon": {
+        "type": "img",
+        "content": "./res/img/hgez6.jpeg",
+        "bg": "#3a55c2"
+      },
+      "openMode": "normal",
+      "plugin": false,
+      "position": {
+        "autoOffset": true,
+        "left": true,
+        "top": true,
+        "x": "x*0.1",
+        "y": "y*0.1"
+      },
+      "version": "1.0.0",
+      "poweredBy": "Yuri2",
+      "resizable": true,
+      "single": false,
+      "size": {
+        "height": "y*0.8-80",
+        "width": "x*0.8"
+      },
+      "title": "大鸟博客",
+      "url": "https://hgez6.github.io/",
+      "customTile": "",
+      "urlRandomToken": true
+    },
     "yl-app-store": {
       "addressBar": false,
       "autoRun": 0,
@@ -425,12 +458,6 @@
       "hash": ""
     },
     {
-      "app": "yl-app-home",
-      "title": "YLUI 官网",
-      "params": {},
-      "hash": ""
-    },
-    {
       "title": "代码库",
       "children": [
         {
@@ -452,6 +479,12 @@
           "hash": ""
         }
       ]
+    },
+    {
+      "app": "hgez6",
+      "title": "大鸟博客",
+      "params": {},
+      "hash": ""
     }
   ],
   "tiles": [
@@ -496,8 +529,8 @@
           "y": 0,
           "w": 6,
           "h": 4,
-          "app": "yl-app-home",
-          "title": "YLUI 官网",
+          "app": "hgez6",
+          "title": "大鸟博客",
           "i": "147",
           "params": {},
           "hash": ""
@@ -539,8 +572,8 @@
         "hash": ""
       },
       "itemPushed-89": {
-        "app": "yl-app-home",
-        "title": "YLUI 官网",
+        "app": "hgez6",
+        "title": "大鸟博客",
         "params": {},
         "hash": ""
       },
