@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>JS下修改指定id和class的对应元素值 --以hexo随机indeximg为例</title>
+      <link href="/posts/7a22925c/"/>
+      <url>/posts/7a22925c/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>从来没学过前端，以后也不打算学，目前的前端生态已经相当成熟了，写个网页和word技术含量差不多，毕竟网页也只是描述语言而已。</p><h2 id="巧用F12"><a href="#巧用F12" class="headerlink" title="巧用F12"></a>巧用F12</h2><p>会用F12查看你要修改的元素的id和class非常重要<br>F12也能查看源码</p><img src="/posts/undefined/%E5%8F%912.png" class=""><h2 id="创建JS文件定位id-判断class"><a href="#创建JS文件定位id-判断class" class="headerlink" title="创建JS文件定位id,判断class"></a>创建JS文件定位id,判断class</h2><p>整体代码</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> bannerimg =[</span><br><span class="line">  <span class="string">&quot;url(https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg)&quot;</span>,</span><br><span class="line">  <span class="string">&quot;url(https://picsum.photos/id/767/3069/2048)&quot;</span>,</span><br><span class="line">  <span class="string">&quot;url(https://picsum.photos/id/800/4663/3109)&quot;</span>,</span><br><span class="line">  <span class="string">&quot;url(https://picsum.photos/id/459/2310/1534)&quot;</span>,</span><br><span class="line">  <span class="string">&quot;url(https://picsum.photos/id/458/5184/3456)&quot;</span>,</span><br><span class="line">  <span class="string">&quot;url(https://picsum.photos/id/317/1935/1089)&quot;</span></span><br><span class="line">];</span><br><span class="line"><span class="comment">//获取banner图片总数，生成随机数</span></span><br><span class="line"><span class="keyword">var</span> bannerindex =<span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.random() * bannerimg.length);</span><br><span class="line"><span class="keyword">var</span> bgid = <span class="built_in">document</span>.getElementById(<span class="string">&quot;page-header&quot;</span>);</span><br><span class="line"><span class="keyword">if</span>(bgid.className ==<span class="string">&quot;full_page&quot;</span>)                                <span class="comment">//精确到class重要插桩</span></span><br><span class="line">&#123;<span class="built_in">document</span>.getElementById(<span class="string">&quot;page-header&quot;</span>).style.backgroundImage = bannerimg[bannerindex];&#125;</span><br></pre></td></tr></table></figure><p>定位ID</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> bgid = <span class="built_in">document</span>.getElementById(<span class="string">&quot;page-header&quot;</span>);</span><br></pre></td></tr></table></figure><p>判断class类并修改(赋值)</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(bgid.className ==<span class="string">&quot;full_page&quot;</span>)                                <span class="comment">//精确到class重要插桩</span></span><br><span class="line">  &#123;<span class="built_in">document</span>.getElementById(<span class="string">&quot;page-header&quot;</span>).style.backgroundImage = bannerimg[bannerindex];&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+          <category> JS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自定义元素 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>不定积分证明题总结</title>
+      <link href="/posts/6038564/"/>
+      <url>/posts/6038564/</url>
+      
+        <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>不定积分证明题常常出让你证明一个等式<br>首先可以把变量换成x方便看<br>然后，<strong>构造函数，或者用零点定理，特别要注意和0，1有关的量，这些往往是构造的关键</strong>；<br>一些基本的 罗尔定理，中值定理，拉格朗日等都必须要掌握<br>判断零点的个数用单调性！<br>还有一些<strong>积分的绝对值&lt;=绝对值的积分</strong>这样的常见不等式要会用<br>积分的基本加减运算更要会<br>最重要的还是灵活变通，多做题。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 高等数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分部积分推广公式的注意事项</title>
       <link href="/posts/397ef2f8/"/>
       <url>/posts/397ef2f8/</url>
@@ -35,7 +89,7 @@
       <link href="/posts/fc1fa1d4/"/>
       <url>/posts/fc1fa1d4/</url>
       
-        <content type="html"><![CDATA[<h1 id="区间再现，区间平移，华氏公式，是不定积分的重要公式没有之一"><a href="#区间再现，区间平移，华氏公式，是不定积分的重要公式没有之一" class="headerlink" title="区间再现，区间平移，华氏公式，是不定积分的重要公式没有之一"></a>区间再现，区间平移，华氏公式，是不定积分的重要公式没有之一</h1><p>注意他们的使用条件：</p><h2 id="区间再现"><a href="#区间再现" class="headerlink" title="区间再现"></a>区间再现</h2><ol><li>对任何函数成立<h2 id="区间平移"><a href="#区间平移" class="headerlink" title="区间平移"></a>区间平移</h2>区间平移指的是以T为单位平移，仅仅对整体是周期函数有效。<br>如果整体不是周期函数，而子函数存在周期函数，可以用换元法进行模拟区间平移来判断他们的关系。(有点像仿射变换)<h2 id="华氏公式-点火公式"><a href="#华氏公式-点火公式" class="headerlink" title="华氏公式(点火公式)"></a>华氏公式(点火公式)</h2>点火公式仅仅是0-π/2的情况，其他情况处理见 张宇基础30 P130页。</li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="区间再现，区间平移，华氏公式，是不定积分的重要公式没有之一"><a href="#区间再现，区间平移，华氏公式，是不定积分的重要公式没有之一" class="headerlink" title="区间再现，区间平移，华氏公式，是不定积分的重要公式没有之一"></a>区间再现，区间平移，华氏公式，是不定积分的重要公式没有之一</h1><p>注意他们的使用条件：</p><h2 id="区间再现"><a href="#区间再现" class="headerlink" title="区间再现"></a>区间再现</h2><ol><li>对任何函数成立</li><li><strong>使用区间再现前后函数上下限不变！</strong> 这是区别于换元法的最大意义之一！<h2 id="区间平移"><a href="#区间平移" class="headerlink" title="区间平移"></a>区间平移</h2>区间平移指的是以T为单位平移，仅仅对整体是周期函数有效。<br>如果整体不是周期函数，而子函数存在周期函数，可以用换元法进行模拟区间平移来判断他们的关系。(有点像仿射变换)<h2 id="华氏公式-点火公式"><a href="#华氏公式-点火公式" class="headerlink" title="华氏公式(点火公式)"></a>华氏公式(点火公式)</h2>点火公式仅仅是0-π/2的情况，其他情况处理见 张宇基础30 P130页。</li></ol>]]></content>
       
       
       <categories>
@@ -120,7 +174,7 @@
       <link href="/posts/a0487b7e/"/>
       <url>/posts/a0487b7e/</url>
       
-        <content type="html"><![CDATA[<h2 id="NPM-package踩坑记录"><a href="#NPM-package踩坑记录" class="headerlink" title="NPM-package踩坑记录"></a>NPM-package踩坑记录</h2><p>最近用node.js下的包管理工具下载了一个插件，想直接进Node_module目录改.js和css目录改代码，但是都没有效果。是因为修改的是element的源码，而你引用的是它编译打包之后的。所以修改无效。<br>正确的方法是，进入插件的开源仓库fork源码后修改，使用npm重新编译。</p><h3 id="方法1如下；-转载"><a href="#方法1如下；-转载" class="headerlink" title="方法1如下；(转载)"></a>方法1如下；(转载)</h3><p>如果你不想直接使用我的魔改，你想要修改某些东西，例如卡片透明度，那么你不必修改压缩过的 css，而是应该到 static-butterfly 仓库下载源代码，按照./src/css/config.less 中的文件进行自定义配置。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm i</span><br><span class="line">npm run build</span><br></pre></td></tr></table></figure><p>修改你想要自定义的配置项，只需要修改配置中的对应字段即可（上面代码可能不全，以实际文件为准）。然后在根目录下运行如下命令进行构建即可。</p><div class="tag link"><a class="link-card" title="点击查看" href="https://www.antmoe.com/posts/a811d614/"><div class="left"><img src="https://unpkg.zhimg.com/akilar-candyassets/image/siteicon/favicon.ico"/></div><div class="right"><p class="text">点击查看</p><p class="url">https://www.antmoe.com/posts/a811d614/</p></div></a></div><h3 id="方法2如下：-转载"><a href="#方法2如下：-转载" class="headerlink" title="方法2如下：(转载)"></a>方法2如下：(转载)</h3><div class="tag link"><a class="link-card" title="点击查看" href="https://segmentfault.com/q/1010000023232103"><div class="left"><img src="https://unpkg.zhimg.com/akilar-candyassets/image/siteicon/favicon.ico"/></div><div class="right"><p class="text">点击查看</p><p class="url">https://segmentfault.com/q/1010000023232103</p></div></a></div><h2 id="解码记录"><a href="#解码记录" class="headerlink" title="解码记录"></a>解码记录</h2><p>在某大佬软件源码下看到了这个</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">/**</span><br><span class="line"> \u0061\u0048\u0052\u0030\u0063\u0044\u006f\u0076\u004c\u0032\u0052\u006c\u0064\u0069\u0031\u007a\u0061\u0057\u0052\u006c\u0059\u0032\u0046\u0079\u004c\u006d\u0052\u0076\u0059\u0032\u0031\u0070\u0063\u006e\u004a\u0076\u0063\u0069\u0035\u006a\u0062\u0069\u0039\u0035\u0062\u0033\u0056\u006d\u0061\u0057\u0035\u006b\u0061\u0058\u0051\u0076\u0061\u0057\u0035\u006b\u005a\u0058\u0067\u0075\u0061\u0048\u0052\u0074\u0062\u0041\u003d\u003d</span><br><span class="line"> **/</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>你们觉得应该怎么解密?</p><span class="hide-inline"><button type="button" class="hide-button button--animated" style="background-color: green;">答案是  </button><span class="hide-content">uni-base64-二维码</span></span>  <p>如果把其中一个步骤,按自己的规则偏移编码,是不是谁也解不出来了。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="NPM-package踩坑记录"><a href="#NPM-package踩坑记录" class="headerlink" title="NPM-package踩坑记录"></a>NPM-package踩坑记录</h2><p>最近用node.js下的包管理工具下载了一个插件，想直接进Node_module目录改.js和css目录改代码，但是都没有效果。是因为修改的是element的源码，而你引用的是它编译打包之后的。所以修改无效。<br>正确的方法是，进入插件的开源仓库fork源码后修改，使用npm重新编译。</p><h3 id="方法1如下；-转载"><a href="#方法1如下；-转载" class="headerlink" title="方法1如下；(转载)"></a>方法1如下；(转载)</h3><p>如果你不想直接使用我的魔改，你想要修改某些东西，例如卡片透明度，那么你不必修改压缩过的 css，而是应该到 static-butterfly 仓库下载源代码，按照./src/css/config.less 中的文件进行自定义配置。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm i</span><br><span class="line">npm run build</span><br></pre></td></tr></table></figure><p>修改你想要自定义的配置项，只需要修改配置中的对应字段即可（上面代码可能不全，以实际文件为准）。然后在根目录下运行如下命令进行构建即可。</p><div class="tag link"><a class="link-card" title="点击查看" href="https://www.antmoe.com/posts/a811d614/"><div class="left"><img src="https://unpkg.zhimg.com/akilar-candyassets/image/siteicon/favicon.ico"/></div><div class="right"><p class="text">点击查看</p><p class="url">https://www.antmoe.com/posts/a811d614/</p></div></a></div><h3 id="方法2如下：-转载"><a href="#方法2如下：-转载" class="headerlink" title="方法2如下：(转载)"></a>方法2如下：(转载)</h3><div class="tag link"><a class="link-card" title="点击查看" href="https://segmentfault.com/q/1010000023232103"><div class="left"><img src="https://unpkg.zhimg.com/akilar-candyassets/image/siteicon/favicon.ico"/></div><div class="right"><p class="text">点击查看</p><p class="url">https://segmentfault.com/q/1010000023232103</p></div></a></div><h2 id="解码记录"><a href="#解码记录" class="headerlink" title="解码记录"></a>解码记录</h2><p>在某大佬软件源码下看到了这个</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">/**</span><br><span class="line"> \u0061\u0048\u0052\u0030\u0063\u0044\u006f\u0076\u004c\u0032\u0052\u006c\u0064\u0069\u0031\u007a\u0061\u0057\u0052\u006c\u0059\u0032\u0046\u0079\u004c\u006d\u0052\u0076\u0059\u0032\u0031\u0070\u0063\u006e\u004a\u0076\u0063\u0069\u0035\u006a\u0062\u0069\u0039\u0035\u0062\u0033\u0056\u006d\u0061\u0057\u0035\u006b\u0061\u0058\u0051\u0076\u0061\u0057\u0035\u006b\u005a\u0058\u0067\u0075\u0061\u0048\u0052\u0074\u0062\u0041\u003d\u003d</span><br><span class="line"> **/</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>你们觉得应该怎么解密?</p><span class="hide-inline"><button type="button" class="hide-button button--animated" style="background-color: green;">答案是  </button><span class="hide-content">uni-base64-二维码</span></span>  <p>如果把其中一个步骤,按自己的规则偏移编码,是不是谁也解不出来了。</p><h3 id="浅谈二维码识别"><a href="#浅谈二维码识别" class="headerlink" title="浅谈二维码识别"></a>浅谈二维码识别</h3><p>二维码识别似乎是识别方块，要注意方块的前景色和背景色对比越大越好，因为他是形状识别。</p>]]></content>
       
       
       <categories>
