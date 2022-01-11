@@ -20,6 +20,9 @@
   ];
   //获取banner图片总数，生成随机数
   var bannerindex =Math.floor(Math.random() * bannerimg.length);
+  var bgid = document.getElementById("page-header");
+  if(bgid.className =="full_page")                                //精确到class重要插桩
+  {document.getElementById("page-header").style.backgroundImage = bannerimg[bannerindex];}
   //重设banner图片
-  document.getElementById("page-header").style.backgroundImage = bannerimg[bannerindex];
-  
+//   document.getElementById("page-header").class.full_page.style.backgroundImage = bannerimg[bannerindex];
+//   document.getElementsByClassName("full_page").style.backgroundImage = bannerimg[bannerindex];
