@@ -35,7 +35,7 @@
       <link href="/posts/6038564/"/>
       <url>/posts/6038564/</url>
       
-        <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>不定积分证明题常常出让你证明一个等式<br>首先可以把变量换成x方便看<br>然后，<strong>构造函数，或者用零点定理，特别要注意和0，1有关的量，这些往往是构造的关键</strong>；<br>一些基本的 罗尔定理，中值定理，拉格朗日等都必须要掌握<br>判断零点的个数用单调性！<br>还有一些<strong>积分的绝对值&lt;=绝对值的积分</strong>这样的常见不等式要会用<br>积分的基本加减运算更要会<br>最重要的还是灵活变通，多做题。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>不定积分证明题常常出让你证明一个等式<br>首先可以把变量换成x方便看<br>然后，<strong>构造函数，或者用零点定理，特别要注意和0，1有关的量，这些往往是构造的关键</strong>；<br>一些基本的 罗尔定理，中值定理，拉格朗日等都必须要掌握<br>判断零点的个数用单调性！<br>还有一些<strong>积分的绝对值&lt;=绝对值的积分</strong>这样的常见不等式要会用<br><strong>开区间成立的，闭区间一定成立</strong>；因为闭区间元素多，元素越多约束越少。<br>积分的基本加减运算更要会<br>最重要的还是灵活变通，多做题。</p>]]></content>
       
       
       <categories>
