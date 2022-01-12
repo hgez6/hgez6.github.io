@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title>逆向开发法网页速成！&amp; 基于api的前后端分离思考</title>
+      <link href="/posts/9d38bb17/"/>
+      <url>/posts/9d38bb17/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>本文仅供学习使用</p></blockquote><h1 id="查看-下载源代码速成网页"><a href="#查看-下载源代码速成网页" class="headerlink" title="查看/下载源代码速成网页"></a>查看/下载源代码速成网页</h1><p>网页由html,js,css三大主要部分构成；<br>绝大部分js,css(文本类型)，图片这些静态资源，都存放在CDN；<br>CDN供应商的服务器放在世界各个角落，可将代码，图片等静态资源，转换成外链，形成源服务器的映射；<br>方法1：<br>话不多说直接F12(几乎所有资源都可看到)<br><img src="https://pic.rmb.bdstatic.com/bjh/a3a87afcedd337361eb5944093346f2f.png" alt="F12.png"><br>方法2：</p><ol><li>右键另存为<br>或者浏览器自带的另存为方式<br><img src="https://mapp.alicdn.com/16419826700157xOJ0QWCTLSdiUE.png" alt="图片.png"><br>另存为后三种元素都可以保存下来，js,css会被存放在同一个文件中，且该文件名应于html文件名相同（中文文件名可能会导致编辑器中乱码）；<br><img src="https://pic.rmb.bdstatic.com/bjh/fd5af3845b224e1a966ab29581ba081d.png" alt="图片.png"><h2 id="下载完用编辑器如VScode编辑你想改的代码即可"><a href="#下载完用编辑器如VScode编辑你想改的代码即可" class="headerlink" title="下载完用编辑器如VScode编辑你想改的代码即可"></a>下载完用编辑器如VScode编辑你想改的代码即可</h2>利用查找更快哦！<h1 id="基于api的前后端分离思考"><a href="#基于api的前后端分离思考" class="headerlink" title="基于api的前后端分离思考"></a>基于api的前后端分离思考</h1>将api的代码嵌入到静态页面中，<strong>用户在访问时</strong>就能通过第三方云的api服务获取特定的动态数据(api对应一个apikey来识别特定的库)，使用第三方云可以实现前后端分离。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 思考 </tag>
+            
+            <tag> 逆向 </tag>
+            
+            <tag> 速成 </tag>
+            
+            <tag> api </tag>
+            
+            <tag> 前后端分离 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JS下修改指定id和class的对应元素值 --以hexo随机indeximg为例</title>
       <link href="/posts/7a22925c/"/>
       <url>/posts/7a22925c/</url>
@@ -35,7 +68,7 @@
       <link href="/posts/6038564/"/>
       <url>/posts/6038564/</url>
       
-        <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>不定积分证明题常常出让你证明一个等式<br>首先可以把变量换成x方便看<br>然后，<strong>构造函数，或者用零点定理，特别要注意和0，1有关的量，这些往往是构造的关键</strong>；<br>一些基本的 罗尔定理，中值定理，拉格朗日等都必须要掌握<br>判断零点的个数用单调性！<br>还有一些<strong>积分的绝对值&lt;=绝对值的积分</strong>这样的常见不等式要会用<br><strong>开区间成立的，闭区间一定成立</strong>；因为闭区间元素多，元素越多约束越少。<br>积分的基本加减运算更要会<br>最重要的还是灵活变通，多做题。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>不定积分证明题常常出让你证明一个等式<br>首先可以把变量换成x方便看<br>然后，<strong>构造函数，或者用零点定理，特别要注意和0，1有关的量，这些往往是构造的关键</strong>；<br>一些基本的 罗尔定理，中值定理，拉格朗日等都必须要掌握<br>判断零点的个数用单调性！<br>还有一些<strong>积分的绝对值&lt;=绝对值的积分</strong>这样的常见不等式要会用<br><strong>开区间成立的，闭区间一定成立</strong>；因为闭区间元素多，元素越多约束越少。<br>积分的基本加减运算更要会<br>最重要的还是灵活变通，多做题。</p><h1 id="证明不等式"><a href="#证明不等式" class="headerlink" title="证明不等式"></a>证明不等式</h1><ul><li>掌握中学基本不等式常见方法</li><li>“一阶可导”经常用拉格朗日中值定理</li><li>“二阶及以上可导”经常用泰勒公式</li><li>证明＞比证明大于等于更严格</li><li>抽象函数使用分部积分的时候，是对其积分还是求导看题干</li></ul>]]></content>
       
       
       <categories>
@@ -62,7 +95,7 @@
       <link href="/posts/397ef2f8/"/>
       <url>/posts/397ef2f8/</url>
       
-        <content type="html"><![CDATA[<h1 id="要注意u-v的关系，v是好求积分的那个，同时最后一项上下u-v相乘后求积分要注意-1-n-1"><a href="#要注意u-v的关系，v是好求积分的那个，同时最后一项上下u-v相乘后求积分要注意-1-n-1" class="headerlink" title="要注意u,v的关系，v是好求积分的那个，同时最后一项上下u,v相乘后求积分要注意(-1)^(n+1)"></a>要注意u,v的关系，v是好求积分的那个，同时最后一项上下u,v相乘后求积分要注意(-1)^(n+1)</h1><p>张宇基础30-P112</p><img src="/posts/397ef2f8/%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86%E6%8E%A8%E5%B9%BF.png" class="">]]></content>
+        <content type="html"><![CDATA[<h1 id="要注意u-v的关系，v是好求积分的那个，同时最后一项上下u-v相乘后求积分要注意-1-n-1"><a href="#要注意u-v的关系，v是好求积分的那个，同时最后一项上下u-v相乘后求积分要注意-1-n-1" class="headerlink" title="要注意u,v的关系，v是好求积分的那个，同时最后一项上下u,v相乘后求积分要注意(-1)^(n+1)"></a>要注意u,v的关系，v是好求积分的那个，同时最后一项上下u,v相乘后求积分要注意(-1)^(n+1)</h1><p> <strong>抽象函数使用分部积分的时候，是对其积分还是求导看题干</strong><br>张宇基础30-P112</p><img src="/posts/397ef2f8/%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86%E6%8E%A8%E5%B9%BF.png" class="">]]></content>
       
       
       <categories>
