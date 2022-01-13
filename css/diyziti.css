@@ -19,10 +19,10 @@ h1#site-title {
   }  
 
   /* 10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果  #page-header.post-bg,*/
-/* #recent-posts > .recent-post-item .post_cover img.post_bg:hover
-#web_bg {
-    -webkit-animation: imgblur .5s 1 ease-in-out;
-    animation: imgblur .5s 1 ease-in-out;
+
+/* #recent-posts > .recent-post-item .post_cover img.post_bg {
+    -webkit-animation: imgblur .3s 1 ease-in-out;
+    animation: imgblur .3s 1 ease-in-out;
 }
 @keyframes imgblur {
   0% {
