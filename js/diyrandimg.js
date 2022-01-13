@@ -16,7 +16,8 @@
     "url(https://picsum.photos/id/800/4663/3109)",
     "url(https://picsum.photos/id/459/2310/1534)",
     "url(https://picsum.photos/id/458/5184/3456)",
-    "url(https://picsum.photos/id/317/1935/1089)"
+    "url(https://picsum.photos/id/317/1935/1089)",
+    "url(https://picsum.photos/id/16/2500/1667)"
   ];
   //获取banner图片总数，生成随机数
   var bannerindex =Math.floor(Math.random() * bannerimg.length);
