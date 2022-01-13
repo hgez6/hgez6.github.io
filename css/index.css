@@ -1300,7 +1300,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 14px;
+  --global-font-size: 18px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #a4d8fa;
@@ -1449,6 +1449,7 @@ button {
   border: none;
   background: none;
   cursor: pointer;
+  border-radius: 6px;
 }
 a {
   color: #99a9bf;
@@ -4368,6 +4369,7 @@ blockquote footer cite:before {
   cursor: pointer;
 }
 #pagination .page-number.current {
+  border-radius: 7px;
   background: #00c4b6;
   color: var(--white);
   cursor: default;
