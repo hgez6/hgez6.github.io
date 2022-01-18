@@ -41,7 +41,7 @@ h1#site-title {
     -webkit-filter: blur(0px);
   }
 }   */
-
+/* 迷你音乐吸底 */
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
   left: -66px !important;
   /* 默认情况下缩进左侧66px，只留一点箭头部分 */
@@ -51,3 +51,24 @@ h1#site-title {
   left: 0 !important;
   /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
 }
+
+/* 阿里矢量图标外挂标签大小 */
+svg.icon {
+  width: 1.3em; height: 1.3em;
+  /* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* 阿里矢量图标库法1 https://akilar.top/posts/d2ebecef/ */
+/* @import "//at.alicdn.com/t/font_3148613_olom2xkeqi.css";
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 3em;
+  /* 可以定义图标大小 */
+  /* font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  } */ 
