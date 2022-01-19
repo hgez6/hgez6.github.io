@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>多元函数微分学基础总结</title>
+      <link href="/posts/bc979acf/"/>
+      <url>/posts/bc979acf/</url>
+      
+        <content type="html"><![CDATA[<h1 id="连续，可偏导，可微，连续可偏导"><a href="#连续，可偏导，可微，连续可偏导" class="headerlink" title="连续，可偏导，可微，连续可偏导"></a>连续，可偏导，可微，连续可偏导</h1><p>连续可偏导 推出 可微，不可反推。<br>由可微 能推出 连续或者可偏导 但不能推出连续可偏导，也不能由连续或者可偏导，推出可微。<br>连续和可偏导之间无关系。<br>张宇基础30 P159<br><img src="https://pic.rmb.bdstatic.com/bjh/b259042ba544c7f3cf5e30f43adff436.png" alt="证明连续，极限值存在且等于该点的函数值.png"><br><img src="https://pic.rmb.bdstatic.com/bjh/8c37dd379fc0c414108ac4a829998b12.png" alt="证明偏导，x，y其中一个在x0或y0点变化△x趋于0(△y)另一个不变.png"><br><img src="https://pic.rmb.bdstatic.com/bjh/e54e025b243ee02ccd430950c7250ccc.png" alt="证明可微要以上三步.png"><br><img src="https://pic.rmb.bdstatic.com/bjh/812ca7aac88d737c20f650003072aad1.png" alt="偏导数的连续性不常考.png"></p><h2 id="多元函数的多阶偏导计算"><a href="#多元函数的多阶偏导计算" class="headerlink" title="多元函数的多阶偏导计算"></a>多元函数的多阶偏导计算</h2><p>常常把位置1的变量整体看成1，位置2的变量整体看成2<br><img src="https://pic.rmb.bdstatic.com/bjh/47a4fe56726f7f2d9e3eef11d88dca3f.png" alt="图片.png"></p><h2 id="微分计算"><a href="#微分计算" class="headerlink" title="微分计算"></a>微分计算</h2><ol><li>先求偏导再整合</li><li>两边整体微分<h2 id="闭区域最值计算"><a href="#闭区域最值计算" class="headerlink" title="闭区域最值计算"></a>闭区域最值计算</h2>先用非条件极值公式找特殊点，再用拉个朗日法算边界上的条件极值，即可。<br>如，矩形区域的一个边界可分为x=常数 (y在变化)</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 高等数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>npm包发布及其CDN加速</title>
       <link href="/posts/cea67e40/"/>
       <url>/posts/cea67e40/</url>
@@ -124,7 +151,7 @@
       <link href="/posts/6038564/"/>
       <url>/posts/6038564/</url>
       
-        <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><svg class="icon" style="width:1em; height:1em" aria-hidden="true"><use xlink:href="#icon-rat_zi"></use></svg><svg class="icon" style="width:2em; height:2em" aria-hidden="true"><use xlink:href="#icon-rat"></use></svg>不定积分证明题常常出让你证明一个等式  <p>首先可以把变量换成x方便看<br>然后，<strong>构造函数，或者用零点定理，特别要注意和0，1有关的量，这些往往是构造的关键</strong>；<br>一些基本的 罗尔定理，中值定理，拉格朗日等都必须要掌握<br>判断零点的个数用单调性！<br>还有一些<strong>积分的绝对值&lt;=绝对值的积分</strong>这样的常见不等式要会用<br><strong>开区间成立的，闭区间一定成立</strong>；因为闭区间元素多，元素越多约束越少。<br>积分的基本加减运算更要会<br>最重要的还是灵活变通，多做题。</p><h1 id="证明不等式"><a href="#证明不等式" class="headerlink" title="证明不等式"></a>证明不等式</h1><ul><li>掌握中学基本不等式常见方法</li><li>“一阶可导”经常用拉格朗日中值定理</li><li>“二阶及以上可导”经常用泰勒公式</li><li>证明＞比证明大于等于更严格</li><li>抽象函数使用分部积分的时候，是对其积分还是求导看题干</li></ul>]]></content>
+        <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><svg class="icon" style="width:1em; height:1em" aria-hidden="true"><use xlink:href="#icon-rat_zi"></use></svg><svg class="icon" style="width:2em; height:2em" aria-hidden="true"><use xlink:href="#icon-rat"></use></svg>不定积分证明题常常出让你证明一个等式  <p>首先可以把变量换成x方便看<br>然后，<strong>构造函数，或者用零点定理，特别要注意和0，1有关的量，这些往往是构造的关键</strong>；<br>一些基本的 罗尔定理，中值定理，拉格朗日等都必须要掌握<br>判断零点的个数用单调性！<br>还有一些<strong>积分的绝对值&lt;=绝对值的积分</strong>这样的常见不等式要会用<br><strong>开区间成立的，闭区间一定成立</strong>；因为闭区间元素多，元素越多约束越少。<br>积分的基本加减运算更要会<br>最重要的还是灵活变通，多做题。</p><h1 id="证明不等式"><a href="#证明不等式" class="headerlink" title="证明不等式"></a>证明不等式</h1><ul><li>掌握中学基本不等式常见方法</li><li>“一阶可导”经常用拉格朗日中值定理</li><li>“二阶及以上可导”经常用泰勒公式</li><li>证明＞比证明大于等于更严格</li><li>抽象函数使用分部积分的时候，是对其积分还是求导看题干</li></ul><h2 id="不定积分的几何应用"><a href="#不定积分的几何应用" class="headerlink" title="不定积分的几何应用"></a>不定积分的几何应用</h2><p>绕y轴旋转的可以使用柱壳法。  </p>]]></content>
       
       
       <categories>
