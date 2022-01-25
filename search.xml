@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>wifi不稳定无法加载图片解决方案</title>
+      <link href="/posts/6c072a00/"/>
+      <url>/posts/6c072a00/</url>
+      
+        <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>最近我家的WiFi手机上网速正常但是无法加载某些app的图片，电脑上一切正常。</p><h2 id="可能性"><a href="#可能性" class="headerlink" title="可能性"></a>可能性</h2><p>有两种可能产生以上问题：</p><ul><li>可能是DNS污染</li><li>网络服务本身不支持ipv6的，却在wifi控制界面开启了Ipv6<h1 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h1>用DNS优选换用延迟更低的DNS，未解决  </li></ul><p><strong>关闭wifi控制界面的Ipv6</strong> 问题解决</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 避坑记录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 修复 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>向量代数和空间解析几何基础</title>
       <link href="/posts/613717f0/"/>
       <url>/posts/613717f0/</url>
