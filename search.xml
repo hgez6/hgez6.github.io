@@ -4,11 +4,63 @@
   
     
     <entry>
+      <title>人工智能模糊算法</title>
+      <link href="/posts/e5fc0b69/"/>
+      <url>/posts/e5fc0b69/</url>
+      
+        <content type="html"><![CDATA[<h2 id="模糊算法"><a href="#模糊算法" class="headerlink" title="模糊算法"></a>模糊算法</h2><p>先要知道模糊集合，模糊集合表示变量与对应关系的隶属度(密切度)<br>已知一个输入的模糊集合和一个输出的模糊集合可以确定模糊关系R,R=A^T<em>B （列向量 * 行向量）<br>求得R的矩阵后，运用新的已知输入量</em>R求出新的输出量集合<br>求得集合后便可得到隶属度关系，通过多种模糊决策，确定输出量的具体数值。<br>模糊决策有最大隶属度法，加权平均法等等。  </p><h3 id="报告示例"><a href="#报告示例" class="headerlink" title="报告示例"></a>报告示例</h3><p>[点击查看]](<a href="https://hgeyun.vercel.app/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A8%A1%E7%B3%8A_%E7%94%B5%E6%B0%94191_19401170108_%E4%BD%95%E4%BD%B3%E6%A5%A0.docx">https://hgeyun.vercel.app/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E6%A8%A1%E7%B3%8A_%E7%94%B5%E6%B0%94191_19401170108_%E4%BD%95%E4%BD%B3%E6%A5%A0.docx</a>)</p><h4 id="程序"><a href="#程序" class="headerlink" title="程序"></a>程序</h4><p>当时忘带U盘了嘿嘿。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 人工智能 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 模糊推理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>二月初二中</title>
+      <link href="/posts/34fe3c9f/"/>
+      <url>/posts/34fe3c9f/</url>
+      
+        <content type="html"><![CDATA[<h1 id="二月初二龙抬头"><a href="#二月初二龙抬头" class="headerlink" title="二月初二龙抬头"></a>二月初二龙抬头</h1><p>早上还是没把无穷级数写完下午一定可以！<br>计算还是太粗心很多计算想当然(比如无穷级数的比值判别法一定是在n趋近于无穷大时候的结果再和1比较不要直接有单调性和1比较，要得到客观准确的结果!!!)，基本概念有些还模糊要熟稔于心！<br>例如： </p><ol><li>lnn/lnn+1不能直接用单调性判断小于1</li><li>除非是判断交错级数un+1&lt;=un才能用单调性</li><li>x^(2n-2) 也要把x0完整的带入不要想当然<br>兄弟叫我唱歌，但我实在不会唱歌，额。。  <h1 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h1></li><li>做完无穷级数</li><li>背五十个单词</li><li>做回英语试卷</li><li>锻炼</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>3/3最近生活总结</title>
       <link href="/posts/6448901f/"/>
       <url>/posts/6448901f/</url>
       
-        <content type="html"><![CDATA[<h2 id="最近"><a href="#最近" class="headerlink" title="最近"></a>最近</h2><p><em>没有继续学习C++</em><br>准备考研了，本身留给考研的时间也不多就不继续学习C++了；<br>其实高数比编程更考验逻辑。<br>但是没有坚持下去也有一些遗憾，我还是认为C++是一门值得学习的语言，但是仅仅是掌握语法远远不够的，我始终认为只到入门级别编程不如不学。  </p><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>睡觉吃饭还是在第一位，有空多锻炼吧<br>针对考研的时间不用花太多，但是最近时间利用率不充分！</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="最近"><a href="#最近" class="headerlink" title="最近"></a>最近</h2><p><em>没有继续学习C++</em><br>准备考研了，本身留给考研的时间也不多就不继续学习C++了；<br>其实高数比编程更考验逻辑。<br>但是没有坚持下去也有一些遗憾，我还是认为C++是一门值得学习的语言，但是仅仅是掌握语法远远不够的，我始终认为只到入门级别编程不如不学。<br>其实当时选择电气专业就是为了不想编程哈哈~</p><h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>睡觉吃饭还是在第一位，有空多锻炼吧<br>针对考研的时间不用花太多，但是最近时间利用率不充分！</p>]]></content>
       
       
       <categories>
