@@ -11,13 +11,13 @@
 //   document.getElementById("web_bg").style.backgroundImage = backimg[bgindex];
   //随机banner数组,图片可以换成图床链接，注意最后一条后面不要有逗号
   var bannerimg =[
-    "url(https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg)",
-    "url(https://picsum.photos/id/767/3069/2048)",
-    "url(https://picsum.photos/id/800/4663/3109)",
-    "url(https://picsum.photos/id/459/2310/1534)",
-    "url(https://picsum.photos/id/458/5184/3456)",
-    "url(https://picsum.photos/id/317/1935/1089)",
-    "url(https://picsum.photos/id/16/2500/1667)"
+    "url(https://z4a.net/images/2022/04/19/IMG_20220307_190940.jpg)",
+    "url(https://z4a.net/images/2022/04/19/IMG_20220309_185813.jpg)",
+    "url(https://z4a.net/images/2022/04/19/IMG_20220310_103158.jpg)",
+    "url(https://z4a.net/images/2022/04/19/IMG_20220226_131802.jpg)",
+    "url(https://z4a.net/images/2022/04/19/IMG_20220310_103231.jpg)",
+    "url(https://z4a.net/images/2022/04/19/IMG_20220308_142522.jpg)",
+    "url(https://z4a.net/images/2022/04/19/IMG_20220308_142505.jpg)"
   ];
   //获取banner图片总数，生成随机数
   var bannerindex =Math.floor(Math.random() * bannerimg.length);
