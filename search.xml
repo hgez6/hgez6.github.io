@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>redis数据库注意事项</title>
+      <link href="/posts/c4345f6c/"/>
+      <url>/posts/c4345f6c/</url>
+      
+        <content type="html"><![CDATA[<h1 id="注意格式"><a href="#注意格式" class="headerlink" title="注意格式"></a>注意格式</h1><p>Default user password(或者Key)@Public endpoint<br>不能直接用Public endpoint，直接用会被404或者504拒绝访问！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前后端分离，数据库 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 踩坑记录 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>4月2日记录</title>
       <link href="/posts/8ae33109/"/>
       <url>/posts/8ae33109/</url>
@@ -842,7 +867,7 @@
       <link href="/posts/3e4c68da/"/>
       <url>/posts/3e4c68da/</url>
       
-        <content type="html"><![CDATA[<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><p>安装GIT工具在指定目录右键<code>git init</code>初始化使其能被git工具上传，可用文件管理器进入目录或者使用<code>cd/xxx</code>终端挂载</p><h2 id="添加文件"><a href="#添加文件" class="headerlink" title="添加文件"></a>添加文件</h2><p>使用 <code>git add -A</code>或者<code>git add . </code>添加所有文件进暂存区，使用””可添加指定文件<code>git add &quot;readme.txt&quot;</code></p><h2 id="提交commit-修改"><a href="#提交commit-修改" class="headerlink" title="提交commit 修改"></a>提交commit 修改</h2><p>从Git的暂存区提交版本到仓库，参数-m后为当次提交的备注信息<br>  <code>git commit -m &quot;1.0.0&quot;</code></p><h2 id="推送到指定仓库"><a href="#推送到指定仓库" class="headerlink" title="推送到指定仓库"></a>推送到指定仓库</h2><p>将本地的Git仓库信息推送上传到服务器<br><code>git push https://gitee.com/***/test.git</code></p><p>或者先关联远程git服务器(推荐)</p><p><code>git remote add origin https://gitee.com/xxx/xx.git</code><br>然后 <code>git push  origin master</code>后面的master为分支对于多分支类型可以引用其他分支 然后合并 <code>git-merge</code></p><h3 id="错误处理"><a href="#错误处理" class="headerlink" title="错误处理"></a>错误处理</h3><p>&emsp;&emsp;遇到无法push的情况,通常是因为远端存在的文件类型与本地不一致，或者是本地换过文件夹目录，可使用<code>git pull origin master</code>先拉取仓库然后再本地修改，提交，推送。    </p><p>遇到无法直接PULL的情况，可能是git文件类型判断错误，使用 <code>git pull origin master --allow-unrelated-histories</code>(能用<code>git pull</code>的就别加后缀，加后缀容易有BUG)；可解决或者强行合并<code>git push -f origin master</code>  </p><p>&emsp;&emsp;如果远端文件你已经不需要，直接删除，即可push;仓库的文件夹无法直接删除，需要使用<code> git rm file_path</code>删除，或者用上文中的方法，先pull下来本地删除文件，最后再推送。    </p><p>注意在github上云分支默认为<code>Main</code>但是本地还是<code>master</code></p><ul><li>[√]所以要先将本地的仓库改名使用</li><li>[√]改云仓库为master也可(推荐)</li><li><code>git branch -m master main</code><br>即可！<br>遇到仓库不一致的情况要先删掉原来的仓库<code>git remote rm origin</code>再重新add。<h2 id="白嫖代码"><a href="#白嫖代码" class="headerlink" title="白嫖代码"></a>白嫖代码</h2><blockquote><p>白嫖总是让人开心~<br>所以熟练掌握白嫖的奥义灵活运用是相当重要的！<br>&emsp;&emsp;通过<code>git clone &#123;仓库的url&#125;</code>白嫖代码，也可直接下载zip包(推荐因为这样能调用第三方下载器例如idm 64线程下载)解压后再进行<code>git init</code>即可。</p></blockquote></li></ul><p>&emsp;&emsp;对于支持npm包管理的插件除了下载整个仓库外；还可以直接<code>npm install &#123;packname&#125;</code>或者<code>yarn install &#123;packname&#125;</code>(高版本)，根据实际情况末尾添加<code>--save</code>或者其他参数。<br>关于环境<br>白嫖的代码环境肯定不与你的一致，所以要灵活运用，也可直接看package.json内详细插件和依赖的参数来做判断 在用<code>npm install &#123;packname&#125;@x.x.x(版本)</code>即可。<br>有些文件后缀内不存代码github无法解析会改后缀但是没关系，因为代码才是核心。</p><mark class="hl-label green">参考链接</mark> <p><a href="https://gitee.com/help/articles/4114#article-header0">gitee git基本用法</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="官方步骤"><a href="#官方步骤" class="headerlink" title="官方步骤"></a>官方步骤</h1><p>…or create a new repository on the command line  </p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;# apitj&quot; &gt;&gt; README.md</span><br><span class="line">git init</span><br><span class="line">git add README.md</span><br><span class="line">git commit -m &quot;first commit&quot;</span><br><span class="line">git branch -M main</span><br><span class="line">git remote add origin https://github.com/hgez6/apitj.git</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure><p>…or push an existing repository from the command line</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://github.com/hgez6/apitj.git</span><br><span class="line">git branch -M main</span><br><span class="line">git push -u origin main</span><br></pre></td></tr></table></figure><p>…or import code from another repository</p><p>You can initialize this repository with code from a Subversion, Mercurial, or TFS project.</p><h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><p>安装GIT工具在指定目录右键<code>git init</code>初始化使其能被git工具上传，可用文件管理器进入目录或者使用<code>cd/xxx</code>终端挂载</p><h2 id="添加文件"><a href="#添加文件" class="headerlink" title="添加文件"></a>添加文件</h2><p>使用 <code>git add -A</code>或者<code>git add . </code>添加所有文件进暂存区，使用””可添加指定文件<code>git add &quot;readme.txt&quot;</code></p><h2 id="提交commit-修改"><a href="#提交commit-修改" class="headerlink" title="提交commit 修改"></a>提交commit 修改</h2><p>从Git的暂存区提交版本到仓库，参数-m后为当次提交的备注信息<br>  <code>git commit -m &quot;1.0.0&quot;</code></p><h2 id="推送到指定仓库"><a href="#推送到指定仓库" class="headerlink" title="推送到指定仓库"></a>推送到指定仓库</h2><p>将本地的Git仓库信息推送上传到服务器<br><code>git push https://gitee.com/***/test.git</code></p><p>或者先关联远程git服务器(推荐)</p><p><code>git remote add origin https://gitee.com/xxx/xx.git</code><br>然后 <code>git push  origin master</code>后面的master为分支对于多分支类型可以引用其他分支 然后合并 <code>git-merge</code></p><h3 id="错误处理"><a href="#错误处理" class="headerlink" title="错误处理"></a>错误处理</h3><p>&emsp;&emsp;遇到无法push的情况,通常是因为远端存在的文件类型与本地不一致，或者是本地换过文件夹目录，可使用<code>git pull origin master</code>先拉取仓库然后再本地修改，提交，推送。    </p><p>遇到无法直接PULL的情况，可能是git文件类型判断错误，使用 <code>git pull origin master --allow-unrelated-histories</code>(能用<code>git pull</code>的就别加后缀，加后缀容易有BUG)；可解决或者强行合并<code>git push -f origin master</code>  </p><p>&emsp;&emsp;如果远端文件你已经不需要，直接删除，即可push;仓库的文件夹无法直接删除，需要使用<code> git rm file_path</code>删除，或者用上文中的方法，先pull下来本地删除文件，最后再推送。    </p><p>注意在github上云分支默认为<code>Main</code>但是本地还是<code>master</code></p><ul><li>[√]所以要先将本地的仓库改名使用</li><li>[√]改云仓库为master也可(推荐)</li><li><code>git branch -m master main</code><br>即可！<br>遇到仓库不一致的情况要先删掉原来的仓库<code>git remote rm origin</code>再重新add。<h2 id="白嫖代码"><a href="#白嫖代码" class="headerlink" title="白嫖代码"></a>白嫖代码</h2><blockquote><p>白嫖总是让人开心~<br>所以熟练掌握白嫖的奥义灵活运用是相当重要的！<br>&emsp;&emsp;通过<code>git clone &#123;仓库的url&#125;</code>白嫖代码，也可直接下载zip包(推荐因为这样能调用第三方下载器例如idm 64线程下载)解压后再进行<code>git init</code>即可。</p></blockquote></li></ul><p>&emsp;&emsp;对于支持npm包管理的插件除了下载整个仓库外；还可以直接<code>npm install &#123;packname&#125;</code>或者<code>yarn install &#123;packname&#125;</code>(高版本)，根据实际情况末尾添加<code>--save</code>或者其他参数。<br>关于环境<br>白嫖的代码环境肯定不与你的一致，所以要灵活运用，也可直接看package.json内详细插件和依赖的参数来做判断 在用<code>npm install &#123;packname&#125;@x.x.x(版本)</code>即可。<br>有些文件后缀内不存代码github无法解析会改后缀但是没关系，因为代码才是核心。</p><mark class="hl-label green">参考链接</mark> <p><a href="https://gitee.com/help/articles/4114#article-header0">gitee git基本用法</a></p>]]></content>
       
       
       <categories>
