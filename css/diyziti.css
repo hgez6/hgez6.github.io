@@ -28,6 +28,10 @@ font-style: normal;
 /* #article-container {
   font-family: 'diyziti';
 }  */
+/* 全局使用 */
+#body {
+  font-family: 'HarmonyOS';
+} 
 #article-container {
   font-family: 'HarmonyOS';
 } 
