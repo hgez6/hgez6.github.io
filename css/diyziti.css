@@ -1,15 +1,36 @@
 @font-face{
-    font-family:'diyxingshu' ;  
-   src:url('/fonts/diyxingshu.ttf'); 
-     font-display: auto; 
+   font-family:'diyxingshu' ;  
+   /* src:url('/fonts/diyxingshu.ttf');  */
+   src:url('https://e5-oneindex.vercel.app/api/raw/?path=/picbed/font/diyxingshu.ttf'); 
+   font-display: auto; 
  
  } 
-
+ /* 新增鸿蒙字体 */
+@font-face{
+  font-family: 'HarmonyOS';
+  src: local('HarmonyOS'),    
+  url('https://npm.elemecdn.com/zkeq-font@1.0.0/HarmonyOS.ttf') format('truetype');
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+ /* 新增HacK字体 */
+@font-face{
+font-family: 'Hack';
+src: local('Hack'),
+url('https://s-gz-2220-icodeq.oss.dogecdn.com/hack-regular-webfont.woff2') format('truetype');
+font-display: swap;
+font-weight: bold;
+font-style: normal;
+}
   /* body  
 
 /* #article-container {
   font-family: 'diyziti';
 }  */
+#article-container {
+  font-family: 'HarmonyOS';
+} 
 
 h1#site-title {
     font-family: 'diyxingshu';
