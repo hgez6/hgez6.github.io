@@ -24,10 +24,7 @@ font-weight: bold;
 font-style: normal;
 }
 
-::selection {
-  background:var(--heo-blue);
-  color:var(--heo-white)
-}
+
   /* body  
 
 /* #article-container {

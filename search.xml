@@ -8,7 +8,7 @@
       <link href="/posts/65c85bd0/"/>
       <url>/posts/65c85bd0/</url>
       
-        <content type="html"><![CDATA[<h1 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h1><p>可以在查看器那里用鼠标选中指定区域在右侧可以查看关联的.css精确位置  </p><p><img src="https://e5-oneindex.vercel.app/api/raw/?path=/picbed/post/22-04-24/1.png" alt="如图"><br>基于此我爬到了边缘动画改成蓝色的代码哈哈哈加在diyziti.css里了<br><img src="https://e5-oneindex.vercel.app/api/raw/?path=/picbed/post/22-04-24/2.png" alt="如图"><br><img src="https://e5-oneindex.vercel.app/api/raw/?path=/picbed/post/22-04-24/3.png" alt="如图"></p><h2 id="hexo莫名其妙本地搜索展不开了"><a href="#hexo莫名其妙本地搜索展不开了" class="headerlink" title="hexo莫名其妙本地搜索展不开了"></a>hexo莫名其妙本地搜索展不开了</h2><p>吓死我，以为哪里代码又出问题了，结果我把搜索改成false然后再重新启用又好了，估计是缓存的问题。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h1><p>可以在查看器那里用鼠标选中指定区域在右侧可以查看关联的.css精确位置  </p><p><img src="https://e5-oneindex.vercel.app/api/raw/?path=/picbed/post/22-04-24/1.png" alt="如图"><br>基于此我爬到了边缘动画改成蓝色的代码哈哈哈加在diyziti.css里了<br><img src="https://e5-oneindex.vercel.app/api/raw/?path=/picbed/post/22-04-24/2.png" alt="如图"><br><img src="https://e5-oneindex.vercel.app/api/raw/?path=/picbed/post/22-04-24/3.png" alt="如图"><br>试了下失败不折腾了</p><h2 id="hexo莫名其妙本地搜索展不开了"><a href="#hexo莫名其妙本地搜索展不开了" class="headerlink" title="hexo莫名其妙本地搜索展不开了"></a>hexo莫名其妙本地搜索展不开了</h2><p>吓死我，以为哪里代码又出问题了，结果我把搜索改成false然后再重新启用又好了，估计是缓存的问题。</p>]]></content>
       
       
       <categories>
@@ -620,9 +620,9 @@
       
         <tags>
             
-            <tag> 踩坑记录 </tag>
-            
             <tag> npm包管理 </tag>
+            
+            <tag> 踩坑记录 </tag>
             
         </tags>
       
