@@ -1,7 +1,7 @@
 @font-face{
    font-family:'diyxingshu' ;  
-   /* src:url('/fonts/diyxingshu.ttf');  */
-   src:url('https://e5-oneindex.vercel.app/api/raw/?path=/picbed/font/diyxingshu.ttf'); 
+   src:url('/fonts/diyxingshu.ttf'); 
+   /* src:url('https://e5-oneindex.vercel.app/api/raw/?path=/picbed/font/diyxingshu.ttf');  */
    font-display: auto; 
  
  } 
