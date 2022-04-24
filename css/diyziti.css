@@ -1,7 +1,7 @@
 @font-face{
    font-family:'diyxingshu' ;  
-   src:url('/fonts/diyxingshu.ttf'); 
-   /* src:url('https://e5-oneindex.vercel.app/api/raw/?path=/picbed/font/diyxingshu.ttf');  */
+   /* src:url('/fonts/diyxingshu.ttf');  */
+   src:url('https://npm.elemecdn.com/hgefonts@1.0.0/bangshu.ttf'); 
    font-display: auto; 
  
  } 
@@ -23,6 +23,7 @@ font-display: swap;
 font-weight: bold;
 font-style: normal;
 }
+
   /* body  
 
 /* #article-container {
