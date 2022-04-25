@@ -4,16 +4,18 @@
   
     
     <entry>
-      <title>浏览器F12小技巧</title>
+      <title>浏览器F12小技巧及谷歌相机8.4</title>
       <link href="/posts/65c85bd0/"/>
       <url>/posts/65c85bd0/</url>
       
-        <content type="html"><![CDATA[<h1 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h1><p>可以在查看器那里用鼠标选中指定区域在右侧可以查看关联的.css精确位置  </p><p><img src="https://e5-oneindex.vercel.app/api/raw/?path=/picbed/post/22-04-24/1.png" alt="如图"><br>基于此我爬到了边缘动画改成蓝色的代码哈哈哈加在diyziti.css里了<br><img src="https://e5-oneindex.vercel.app/api/raw/?path=/picbed/post/22-04-24/2.png" alt="如图"><br><img src="https://e5-oneindex.vercel.app/api/raw/?path=/picbed/post/22-04-24/3.png" alt="如图"><br>试了下失败不折腾了</p><h2 id="hexo莫名其妙本地搜索展不开了"><a href="#hexo莫名其妙本地搜索展不开了" class="headerlink" title="hexo莫名其妙本地搜索展不开了"></a>hexo莫名其妙本地搜索展不开了</h2><p>吓死我，以为哪里代码又出问题了，结果我把搜索改成false然后再重新启用又好了，估计是缓存的问题。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="技巧"><a href="#技巧" class="headerlink" title="技巧"></a>技巧</h1><p>可以在查看器那里用鼠标选中指定区域在右侧可以查看关联的.css精确位置  </p><p><img src="https://e5-oneindex.vercel.app/api/raw/?path=/picbed/post/22-04-24/1.png" alt="如图"><br>基于此我爬到了边缘动画改成蓝色的代码哈哈哈加在diyziti.css里了<br><img src="https://e5-oneindex.vercel.app/api/raw/?path=/picbed/post/22-04-24/2.png" alt="如图"><br><img src="https://e5-oneindex.vercel.app/api/raw/?path=/picbed/post/22-04-24/3.png" alt="如图"><br>试了下失败不折腾了</p><h2 id="hexo莫名其妙本地搜索展不开了"><a href="#hexo莫名其妙本地搜索展不开了" class="headerlink" title="hexo莫名其妙本地搜索展不开了"></a>hexo莫名其妙本地搜索展不开了</h2><p>吓死我，以为哪里代码又出问题了，结果我把搜索改成false然后再重新启用又好了，估计是缓存的问题。</p><h2 id="谷歌相机8-4"><a href="#谷歌相机8-4" class="headerlink" title="谷歌相机8.4"></a>谷歌相机8.4</h2><p>谷歌相机8.4是真的好用啊，红米note5又焕发青春哈哈<br><a href="https://www.celsoazevedo.com/files/android/google-camera/dev-hasli/f/dl8/">GCAMHUB</a></p><h3 id="使用法"><a href="#使用法" class="headerlink" title="使用法"></a>使用法</h3><p>lib8.4.300_Arcide_2022-04-15.zip<br><a href="https://wwi.lanzoup.com/iMkHc03q1ylg">https://wwi.lanzoup.com/iMkHc03q1ylg</a> </p><p>lib8.4.300_Arcide_2022-04-15_defaultmerge.zip<br><a href="https://wwi.lanzoup.com/iAU9x03q20uh">https://wwi.lanzoup.com/iAU9x03q20uh</a> </p><p>zip 解压缩<br>3.Intruction:<br>-Save XML under the directory of sdcard\LMC8.4<br>-Save lib under the directory of sdcard\LMC8.1\libs<br><a href="https://e5-oneindex.vercel.app/zh-CN/%E5%AE%89%E5%8D%93%E7%9B%B8%E5%85%B3/%E7%BA%A2%E7%B1%B3note5%E8%BD%AF%E4%BB%B6/%E8%B0%B7%E6%AD%8C%E7%9B%B8%E6%9C%BA8.4%E6%8E%A8%E8%8D%90">本站源</a></p>]]></content>
       
       
       <categories>
           
           <category> 前端 </category>
+          
+          <category> 记录 </category>
           
       </categories>
       
@@ -21,6 +23,8 @@
         <tags>
             
             <tag> 小技巧 </tag>
+            
+            <tag> 谷歌相机 </tag>
             
         </tags>
       
