@@ -50,6 +50,7 @@ body {
     height: 100%;
     min-height: 100vh;
     background-image: url("https://pic.rmb.bdstatic.com/bjh/8b140e4f3eb4ec2f804cae279db52c6e.png");
+    
     position: absolute;
     z-index: -1;
 }
