@@ -4,79 +4,6 @@
   
     
     <entry>
-      <title>分部积分推广公式的注意事项</title>
-      <link href="/posts/397ef2f8/"/>
-      <url>/posts/397ef2f8/</url>
-      
-        <content type="html"><![CDATA[<h1 id="要注意u-v的关系，v是好求积分的那个，同时最后一项上下u-v相乘后求积分要注意-1-n-1"><a href="#要注意u-v的关系，v是好求积分的那个，同时最后一项上下u-v相乘后求积分要注意-1-n-1" class="headerlink" title="要注意u,v的关系，v是好求积分的那个，同时最后一项上下u,v相乘后求积分要注意(-1)^(n+1)"></a>要注意u,v的关系，v是好求积分的那个，同时最后一项上下u,v相乘后求积分要注意(-1)^(n+1)</h1><p> <strong>抽象函数使用分部积分的时候，是对其积分还是求导看题干</strong><br>张宇基础30-P112</p><img src="/posts/397ef2f8/%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86%E6%8E%A8%E5%B9%BF.png" class="">]]></content>
-      
-      
-      <categories>
-          
-          <category> 高等数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 总结 </tag>
-            
-            <tag> 算法 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>不定积分证明题总结</title>
-      <link href="/posts/6038564/"/>
-      <url>/posts/6038564/</url>
-      
-        <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><svg class="icon" style="width:1em; height:1em" aria-hidden="true"><use xlink:href="#icon-rat_zi"></use></svg><svg class="icon" style="width:2em; height:2em" aria-hidden="true"><use xlink:href="#icon-rat"></use></svg>不定积分证明题常常出让你证明一个等式  <p>首先可以把变量换成x方便看<br>然后，<strong>构造函数，或者用零点定理，特别要注意和0，1有关的量，这些往往是构造的关键</strong>；<br>一些基本的 罗尔定理，中值定理，拉格朗日等都必须要掌握<br>判断零点的个数用单调性！<br>还有一些<strong>积分的绝对值&lt;=绝对值的积分</strong>这样的常见不等式要会用<br><strong>开区间成立的，闭区间一定成立</strong>；因为闭区间元素多，元素越多约束越少。<br>积分的基本加减运算更要会<br>最重要的还是灵活变通，多做题。</p><h1 id="证明不等式"><a href="#证明不等式" class="headerlink" title="证明不等式"></a>证明不等式</h1><ul><li>掌握中学基本不等式常见方法</li><li>“一阶可导”经常用拉格朗日中值定理</li><li>“二阶及以上可导”经常用泰勒公式</li><li>证明＞比证明大于等于更严格</li><li>抽象函数使用分部积分的时候，是对其积分还是求导看题干</li></ul><h2 id="不定积分的几何应用"><a href="#不定积分的几何应用" class="headerlink" title="不定积分的几何应用"></a>不定积分的几何应用</h2><p>绕y轴旋转的可以使用柱壳法。  </p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 高等数学 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 总结 </tag>
-            
-            <tag> 算法 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/posts/16107/"/>
-      <url>/posts/16107/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 初始化 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>1号文件一手一脚</title>
       <link href="/posts/d5a01897/"/>
       <url>/posts/d5a01897/</url>
@@ -103,6 +30,33 @@
         <content type="html"><![CDATA[<h1 id="5月22日"><a href="#5月22日" class="headerlink" title="5月22日"></a>5月22日</h1><p>话说今天山上碰到位67岁老大爷自带老年风格BGM，劳保金5，6千，家住某中高端小区，骑着捷安特1万8的电助力自行车【我查了下1万六千七】，跟我秀他的气动刹车【自行车刹车有气动的？怕不是被坑了】，雅马哈电机和电瓶200里巡航，他说骑车十几年【怪不得脸晒成了酱油色】，原本两辆公路车，六七年前去舟山花大几千打了两次里程200-400公里的比赛，打完比赛车队吃几千块大餐，现在骑不动了，前几个月和20多岁小伙爬郭巨那边有风车的山爬一半就累的想睡觉了据说坡比上太白山还陡【老大爷还讲了个热知识：明堂岙那边沿盘山公路上太白山要1个半小时！下坡也要半小时】，而且公路车轮胎太细大爷摔过几次，所以养生了，换成电助力了，有了电助力再陡也不怕，他还说他女儿的儿子也就是他孙子11岁也买了辆2千多元的捷安特，大爷似乎只认识这个牌子，估计新大路捷安特老板笑开了花，其实自行车这种东西无非是代步工具，速度快又怎么样，重要吗？有路上的风景好看吗？  </p><h1 id="5月23日"><a href="#5月23日" class="headerlink" title="5月23日"></a>5月23日</h1><p>今天扫场所码那个48小时核酸居然从采样时间算起了，我无法接受！</p>]]></content>
       
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分部积分推广公式的注意事项</title>
+      <link href="/posts/397ef2f8/"/>
+      <url>/posts/397ef2f8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="要注意u-v的关系，v是好求积分的那个，同时最后一项上下u-v相乘后求积分要注意-1-n-1"><a href="#要注意u-v的关系，v是好求积分的那个，同时最后一项上下u-v相乘后求积分要注意-1-n-1" class="headerlink" title="要注意u,v的关系，v是好求积分的那个，同时最后一项上下u,v相乘后求积分要注意(-1)^(n+1)"></a>要注意u,v的关系，v是好求积分的那个，同时最后一项上下u,v相乘后求积分要注意(-1)^(n+1)</h1><p> <strong>抽象函数使用分部积分的时候，是对其积分还是求导看题干</strong><br>张宇基础30-P112</p><img src="/posts/397ef2f8/%E5%88%86%E9%83%A8%E7%A7%AF%E5%88%86%E6%8E%A8%E5%B9%BF.png" class="">]]></content>
+      
+      
+      <categories>
+          
+          <category> 高等数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 总结 </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -257,6 +211,33 @@
         <tags>
             
             <tag> 总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>不定积分证明题总结</title>
+      <link href="/posts/6038564/"/>
+      <url>/posts/6038564/</url>
+      
+        <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><svg class="icon" style="width:1em; height:1em" aria-hidden="true"><use xlink:href="#icon-rat_zi"></use></svg><svg class="icon" style="width:2em; height:2em" aria-hidden="true"><use xlink:href="#icon-rat"></use></svg>不定积分证明题常常出让你证明一个等式  <p>首先可以把变量换成x方便看<br>然后，<strong>构造函数，或者用零点定理，特别要注意和0，1有关的量，这些往往是构造的关键</strong>；<br>一些基本的 罗尔定理，中值定理，拉格朗日等都必须要掌握<br>判断零点的个数用单调性！<br>还有一些<strong>积分的绝对值&lt;=绝对值的积分</strong>这样的常见不等式要会用<br><strong>开区间成立的，闭区间一定成立</strong>；因为闭区间元素多，元素越多约束越少。<br>积分的基本加减运算更要会<br>最重要的还是灵活变通，多做题。</p><h1 id="证明不等式"><a href="#证明不等式" class="headerlink" title="证明不等式"></a>证明不等式</h1><ul><li>掌握中学基本不等式常见方法</li><li>“一阶可导”经常用拉格朗日中值定理</li><li>“二阶及以上可导”经常用泰勒公式</li><li>证明＞比证明大于等于更严格</li><li>抽象函数使用分部积分的时候，是对其积分还是求导看题干</li></ul><h2 id="不定积分的几何应用"><a href="#不定积分的几何应用" class="headerlink" title="不定积分的几何应用"></a>不定积分的几何应用</h2><p>绕y轴旋转的可以使用柱壳法。  </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 高等数学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 总结 </tag>
+            
+            <tag> 算法 </tag>
             
         </tags>
       
@@ -1107,6 +1088,25 @@
             <tag> 云端 </tag>
             
             <tag> 可视化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/posts/16107/"/>
+      <url>/posts/16107/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 初始化 </tag>
             
         </tags>
       
