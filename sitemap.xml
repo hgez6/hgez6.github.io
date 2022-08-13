@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hgez6.github.io/posts/cea67e40/</loc>
+    
+    <lastmod>2022-08-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hgez6.github.io/aboutweb/index.html</loc>
     
     <lastmod>2022-08-13</lastmod>
@@ -66,15 +75,6 @@
   
   <url>
     <loc>https://hgez6.github.io/zjapi/ziti/index.html</loc>
-    
-    <lastmod>2022-08-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hgez6.github.io/posts/cea67e40/</loc>
     
     <lastmod>2022-08-11</lastmod>
     
