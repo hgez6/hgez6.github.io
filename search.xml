@@ -8,7 +8,7 @@
       <link href="/posts/ec215a7a/"/>
       <url>/posts/ec215a7a/</url>
       
-        <content type="html"><![CDATA[<h1 id="遇到的问题"><a class="markdownIt-Anchor" href="#遇到的问题"></a> 遇到的问题</h1><p>npm 全局(gobal)安装gulp有很多警告包括几个关键警告，但是这个不用管npm就这样的只要不是装不上的ERRO都不用管<br />安装完成后使用gulp命令显示找不到该命令，这个好办，安装完找不到命令通常是环境缺失，因为我没有把Nodejs放在常规的C盘而是D盘但是gulp路径还是C盘<br />这里可以用everything找一下你的<code>gulp-cli</code>安装路径我的是<code>C:\Users\hge666\AppData\Roaming\npm</code>路径通常到父目录即可<br />然后分别在用户环境变量和系统环境变量的path中添加重新打开终端即可！<br />注意压缩字体需要用到py环境的支持否则安装报错<br />注意某些前端框架可能不支持压缩</p><h2 id="参考教程"><a class="markdownIt-Anchor" href="#参考教程"></a> 参考教程</h2><p><a href="https://akilar.top/posts/49b73b87/">参考教程</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><p>npm 全局(gobal)安装gulp有很多警告包括几个关键警告，但是这个不用管npm就这样的只要不是装不上的ERRO都不用管<br>安装完成后使用gulp命令显示找不到该命令，这个好办，安装完找不到命令通常是环境缺失，因为我没有把Nodejs放在常规的C盘而是D盘但是gulp路径还是C盘<br>这里可以用everything找一下你的<code>gulp-cli</code>安装路径我的是<code>C:\Users\hge666\AppData\Roaming\npm</code>路径通常到父目录即可<br>然后分别在用户环境变量和系统环境变量的path中添加重新打开终端即可！<br>注意压缩字体需要用到py环境的支持否则安装报错<br>注意某些前端框架可能不支持压缩  </p><h2 id="参考教程"><a href="#参考教程" class="headerlink" title="参考教程"></a>参考教程</h2><p><a href="https://akilar.top/posts/49b73b87/">参考教程</a></p>]]></content>
       
       
       
