@@ -2,6 +2,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hgez6.top/sitemap.xml
-Sitemap: https://hgez6.top/baidusitemap.xml
+Sitemap: https://www.hgez6.top/sitemap.xml
+Sitemap: https://www.hgez6.top/baidusitemap.xml
 
