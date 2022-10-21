@@ -4,11 +4,24 @@
   
     
     <entry>
+      <title>坐标变换的注意事项</title>
+      <link href="/posts/db1bf418/"/>
+      <url>/posts/db1bf418/</url>
+      
+        <content type="html"><![CDATA[<h1 id="如题"><a href="#如题" class="headerlink" title="如题"></a>如题</h1><p>坐标平移变换一定要注意是把<code>S</code>用变换后的<code>S&#39;</code>表示再带入到原来的<code>S</code>中去<br><div class="video"><video controls preload><source src='https://s138.ananas.chaoxing.com/sv-w9/video/26/44/82/6d9b5df4b5e693bf6308bd68803431b8/sd.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div></p><h2 id="补充知识"><a href="#补充知识" class="headerlink" title="补充知识"></a>补充知识</h2><p>劳斯判据的本质是判别右半平面的实数根个数，开环传递函数在奈氏图中计算<code>P</code>也可用此法</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2003年数一</title>
       <link href="/posts/1132f9d7/"/>
       <url>/posts/1132f9d7/</url>
       
-        <content type="html"><![CDATA[<h1 id="2003年数一考察全面，做的不好"><a href="#2003年数一考察全面，做的不好" class="headerlink" title="2003年数一考察全面，做的不好"></a>2003年数一考察全面，做的不好</h1><p>补充知识点：柯西施瓦兹不等式<br><img src="https://files.catbox.moe/6v5kll.png" alt="柯西施瓦兹不等式"></p><div class="video"><video controls preload><source src='https://s138.ananas.chaoxing.com/sv-w9/video/55/0a/90/5798c53b7a8331b69d1d3d16a6d5f91f/sd.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
+        <content type="html"><![CDATA[<h1 id="2003年数一考察全面，做的不好"><a href="#2003年数一考察全面，做的不好" class="headerlink" title="2003年数一考察全面，做的不好"></a>2003年数一考察全面，做的不好</h1><p>补充知识点：柯西施瓦兹不等式<br><img src="https://files.catbox.moe/6v5kll.png" alt="柯西施瓦兹不等式"><br><div class="video"><video controls preload><source src='https://s138.ananas.chaoxing.com/sv-w9/video/55/0a/90/5798c53b7a8331b69d1d3d16a6d5f91f/sd.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div></p>]]></content>
       
       
       
