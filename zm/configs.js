@@ -5,7 +5,7 @@ YL.static = {
   iconBtnStart: 'html5', //主图标
   author: '本大鸟就是玩！',//作者
   contactInformation: 'null',//联系方式
-  officialWebsite: 'https://hgez6.github.io',//软件官网
+  officialWebsite: 'https://www.hgez6.top',//软件官网
   welcome: '本网站UI由 YLUI 强力驱动\n更多信息：//ylui.yuri2.cn',//加载完毕控制台提示信息
   copyrightDetail: 'null',//版权详细信息
   otherStatements: '',//其他信息（可留空）
