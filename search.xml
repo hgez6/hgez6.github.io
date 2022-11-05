@@ -34,7 +34,7 @@
       <link href="/posts/2325c1ce/"/>
       <url>/posts/2325c1ce/</url>
       
-        <content type="html"><![CDATA[<h1 id="2005"><a class="markdownIt-Anchor" href="#2005"></a> 2005</h1><h2 id="2005第一部分"><a class="markdownIt-Anchor" href="#2005第一部分"></a> 2005第一部分</h2><div class="video"><video controls preload><source src='https://s138.ananas.chaoxing.com/sv-w9/video/71/cb/0b/cc4bcab371af711d739ed6863f4492da/sd.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div><h2 id="2005第二部分"><a class="markdownIt-Anchor" href="#2005第二部分"></a> 2005第二部分</h2><div class="video"><video controls preload><source src='https://s138.ananas.chaoxing.com/sv-w7/video/21/03/f2/69bd7473034e094ff12f71d1f96ae7f6/sd.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div><h1 id="2006"><a class="markdownIt-Anchor" href="#2006"></a> 2006</h1><div class="video"><video controls preload><source src='https://s138.ananas.chaoxing.com/sv-w9/video/50/6e/89/0b96d261d9bb47c798008c03fac033c0/sd.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
+        <content type="html"><![CDATA[<h1 id="2005"><a href="#2005" class="headerlink" title="2005"></a>2005</h1><h2 id="2005第一部分"><a href="#2005第一部分" class="headerlink" title="2005第一部分"></a>2005第一部分</h2><div class="video"><video controls preload><source src='https://s138.ananas.chaoxing.com/sv-w9/video/71/cb/0b/cc4bcab371af711d739ed6863f4492da/sd.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div><h2 id="2005第二部分"><a href="#2005第二部分" class="headerlink" title="2005第二部分"></a>2005第二部分</h2><div class="video"><video controls preload><source src='https://s138.ananas.chaoxing.com/sv-w7/video/21/03/f2/69bd7473034e094ff12f71d1f96ae7f6/sd.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div><h1 id="2006"><a href="#2006" class="headerlink" title="2006"></a>2006</h1><div class="video"><video controls preload><source src='https://s138.ananas.chaoxing.com/sv-w9/video/50/6e/89/0b96d261d9bb47c798008c03fac033c0/sd.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
       
       
       
@@ -47,7 +47,7 @@
       <link href="/posts/97bbbe8/"/>
       <url>/posts/97bbbe8/</url>
       
-        <content type="html"><![CDATA[<h1 id="两个留数法有区别"><a class="markdownIt-Anchor" href="#两个留数法有区别"></a> 两个留数法有区别</h1><p>求拉普拉斯逆变换时候可以直接用复变函数的留数法，也可以先用留数法(这里的留数法用于分解因式)分解因式后再根据表拉逆变换<br />且分解因式时候用的留数法针对首1标准型 ，这两个留数法使用的目的不同，故有各自不同的变换方法</p><div class="video"><video controls preload><source src='https://s138.ananas.chaoxing.com/video/63/87/51/966de1930967627d2016170de457eae8/sd.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
+        <content type="html"><![CDATA[<h1 id="两个留数法有区别"><a href="#两个留数法有区别" class="headerlink" title="两个留数法有区别"></a>两个留数法有区别</h1><p>求拉普拉斯逆变换时候可以直接用复变函数的留数法，也可以先用留数法(这里的留数法用于分解因式)分解因式后再根据表拉逆变换<br>且分解因式时候用的留数法针对首1标准型 ，这两个留数法使用的目的不同，故有各自不同的变换方法  </p><div class="video"><video controls preload><source src='https://s138.ananas.chaoxing.com/video/63/87/51/966de1930967627d2016170de457eae8/sd.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
       
       
       
@@ -86,7 +86,7 @@
       <link href="/posts/26d7c29b/"/>
       <url>/posts/26d7c29b/</url>
       
-        <content type="html"><![CDATA[<h1 id="自控中的一些概念持续更新"><a class="markdownIt-Anchor" href="#自控中的一些概念持续更新"></a> 自控中的一些概念【持续更新】</h1><h3 id="阻尼值对应的响应"><a class="markdownIt-Anchor" href="#阻尼值对应的响应"></a> 阻尼值对应的响应</h3><p><img src="https://bkimg.cdn.bcebos.com/pic/d62a6059252dd42a3a207488033b5bb5c9eab8e3?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5" alt="" /><br />一个系统受初扰动后不再受外界激励，因受到阻力造成能量损失而位移峰值渐减的振动称为阻尼振动。系统的状态由阻尼比ζ来划分。不同系统中ζ的计算式不同，但意义一样。<strong>把ζ=0的情况称为无阻尼，即周期运动；把<code>0&lt;ζ&lt;1</code>的情况称为欠阻尼；把ζ&gt;1的情况称为过阻尼；把ζ=1的情况称为临界阻尼，即阻尼的大小刚好使系统作非“周期”运动。</strong> 理想状态下，与欠阻尼况和过阻尼相比，在临界阻尼情况下，系统从运动趋近平衡所需的时间最短。</p><h3 id="传递函数"><a class="markdownIt-Anchor" href="#传递函数"></a> 传递函数</h3><p>传递函数描述只适用于线性定常系统</p><h3 id="三频段理论"><a class="markdownIt-Anchor" href="#三频段理论"></a> 三频段理论</h3><p><img src="https://pic3.zhimg.com/v2-b670edf0d18f09ef81d1ad1900f660ca_b.jpg" alt="三频段理论只适用与单位反馈的最小相位系统" /></p><ol><li>三频段理论有：低频、中频和高频段。2. 低频段主要对应系统的稳态精度和响应速度(开环增益K，系统型别v)；3. 中频段主要反映了系统的稳定性和动态性能(中频段对应了系统的幅值剪切频率和相频剪切频率，这分别对应了系统的幅值裕度h与相角裕度γ，同时相角裕度与剪切频率也决定了系统的调节时间、峰值时间和超调量等参数，这反映了系统的动态性能；4. 高频段主要体现了系统的抗噪声能力，高频段的分贝斜率越大则抗噪声能力越好(高频噪声的幅值衰减越快)。</li></ol><h3 id="pid和滤波器的关系"><a class="markdownIt-Anchor" href="#pid和滤波器的关系"></a> PID和滤波器的关系</h3><p>P 比例 I 积分 D 微分<br />高通滤波器，又称低截止滤波器、低阻滤波器，允许高于某一截频的频率通过，而大大衰减较低频率的一种滤波器  。它去掉了信号中不必要的低频成分或者说去掉了低频干扰。<br />有源高通滤波器：由无源元件(一般用R和C)和有源器件(如集成运算放大器）组成。<br /><img src="https://bkimg.cdn.bcebos.com/pic/8694a4c27d1ed21b4a5d90c7a96eddc451da3f7f?x-bce-process=image/resize,m_lfit,w_440,limit_1" alt="一阶有源高通滤波器" /><br /><img src="https://bkimg.cdn.bcebos.com/pic/d788d43f8794a4c23fcb59090af41bd5ad6e3923?x-bce-process=image/resize,m_lfit,w_440,limit_1" alt="一阶有源高通滤波器幅频特性曲线" /><br /><img src="https://pic1.zhimg.com/80/v2-e48ad732f98260d48f181d2e286a6381_720w.webp?source=1940ef5c" alt="低通滤波器幅频特性曲线" /><br />可知低通滤波器相当于比例积分  高通滤波器相当于比例微分<br />状态反馈未必能保持能观性，输出反馈可同时保持能观性</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="自控中的一些概念【持续更新】"><a href="#自控中的一些概念【持续更新】" class="headerlink" title="自控中的一些概念【持续更新】"></a>自控中的一些概念【持续更新】</h1><h3 id="阻尼值对应的响应"><a href="#阻尼值对应的响应" class="headerlink" title="阻尼值对应的响应"></a>阻尼值对应的响应</h3><p><img src="https://bkimg.cdn.bcebos.com/pic/d62a6059252dd42a3a207488033b5bb5c9eab8e3?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2U4MA==,g_7,xp_5,yp_5"><br>一个系统受初扰动后不再受外界激励，因受到阻力造成能量损失而位移峰值渐减的振动称为阻尼振动。系统的状态由阻尼比ζ来划分。不同系统中ζ的计算式不同，但意义一样。<strong>把ζ&#x3D;0的情况称为无阻尼，即周期运动；把<code>0&lt;ζ&lt;1</code>的情况称为欠阻尼；把ζ&gt;1的情况称为过阻尼；把ζ&#x3D;1的情况称为临界阻尼，即阻尼的大小刚好使系统作非“周期”运动。</strong> 理想状态下，与欠阻尼况和过阻尼相比，在临界阻尼情况下，系统从运动趋近平衡所需的时间最短。  </p><h3 id="传递函数"><a href="#传递函数" class="headerlink" title="传递函数"></a>传递函数</h3><p>传递函数描述只适用于线性定常系统  </p><h3 id="三频段理论"><a href="#三频段理论" class="headerlink" title="三频段理论"></a>三频段理论</h3><p><img src="https://pic3.zhimg.com/v2-b670edf0d18f09ef81d1ad1900f660ca_b.jpg" alt="三频段理论只适用与单位反馈的最小相位系统"></p><ol><li>三频段理论有：低频、中频和高频段。2. 低频段主要对应系统的稳态精度和响应速度(开环增益K，系统型别v)；3. 中频段主要反映了系统的稳定性和动态性能(中频段对应了系统的幅值剪切频率和相频剪切频率，这分别对应了系统的幅值裕度h与相角裕度γ，同时相角裕度与剪切频率也决定了系统的调节时间、峰值时间和超调量等参数，这反映了系统的动态性能；4. 高频段主要体现了系统的抗噪声能力，高频段的分贝斜率越大则抗噪声能力越好(高频噪声的幅值衰减越快)。</li></ol><h3 id="PID和滤波器的关系"><a href="#PID和滤波器的关系" class="headerlink" title="PID和滤波器的关系"></a>PID和滤波器的关系</h3><p>P 比例 I 积分 D 微分<br>高通滤波器，又称低截止滤波器、低阻滤波器，允许高于某一截频的频率通过，而大大衰减较低频率的一种滤波器  。它去掉了信号中不必要的低频成分或者说去掉了低频干扰。<br>有源高通滤波器：由无源元件(一般用R和C)和有源器件(如集成运算放大器）组成。<br><img src="https://bkimg.cdn.bcebos.com/pic/8694a4c27d1ed21b4a5d90c7a96eddc451da3f7f?x-bce-process=image/resize,m_lfit,w_440,limit_1" alt="一阶有源高通滤波器"><br><img src="https://bkimg.cdn.bcebos.com/pic/d788d43f8794a4c23fcb59090af41bd5ad6e3923?x-bce-process=image/resize,m_lfit,w_440,limit_1" alt="一阶有源高通滤波器幅频特性曲线"><br><img src="https://pic1.zhimg.com/80/v2-e48ad732f98260d48f181d2e286a6381_720w.webp?source=1940ef5c" alt="低通滤波器幅频特性曲线"><br>可知低通滤波器相当于比例积分  高通滤波器相当于比例微分<br>状态反馈未必能保持能观性，输出反馈可同时保持能观性  </p>]]></content>
       
       
       
@@ -885,9 +885,9 @@
       
       <categories>
           
-          <category> 开源 </category>
-          
           <category> 电气自动化 </category>
+          
+          <category> 开源 </category>
           
           <category> PLC </category>
           
@@ -997,9 +997,9 @@
           
           <category> 嵌入式 </category>
           
-          <category> 开源 </category>
-          
           <category> C51 </category>
+          
+          <category> 开源 </category>
           
       </categories>
       
@@ -1055,9 +1055,9 @@
       
       <categories>
           
-          <category> 开源 </category>
-          
           <category> 电气自动化 </category>
+          
+          <category> 开源 </category>
           
           <category> PLC </category>
           
@@ -1171,9 +1171,9 @@
       
       <categories>
           
-          <category> 开源 </category>
-          
           <category> 电气自动化 </category>
+          
+          <category> 开源 </category>
           
           <category> 现场总线 </category>
           
