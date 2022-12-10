@@ -4,11 +4,24 @@
   
     
     <entry>
+      <title>markdown语法总结和代码块测试</title>
+      <link href="/posts/38e6c17c/"/>
+      <url>/posts/38e6c17c/</url>
+      
+        <content type="html"><![CDATA[<h1 id="语法官方文档"><a href="#语法官方文档" class="headerlink" title="语法官方文档"></a>语法官方文档</h1><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://markdown.com.cn/basic-syntax/</span><br></pre></td></tr></table></figure><hr><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">此为分栏符上下请空两行</span><br></pre></td></tr></table></figure><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p><code>代码高亮</code><br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">``代码高亮``</span><br></pre></td></tr></table></figure></p><h3 id="测试通过"><a href="#测试通过" class="headerlink" title="测试通过"></a>测试通过</h3>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>matlab绘制MATLAB频域分析 奈氏图、根轨迹绘制</title>
       <link href="/posts/fac5d191/"/>
       <url>/posts/fac5d191/</url>
       
-        <content type="html"><![CDATA[<h1 id="绘图简介"><a href="#绘图简介" class="headerlink" title="绘图简介"></a>绘图简介</h1><p>在复平面上表示传递函数的幅值相位角随频率的改变而改变的图就是nyquist图（奈奎斯特图，奈氏图），表示控制系统的幅相频率特性，横坐标U(real number)纵坐标jV(imaginary number)；伯德图(bode)利用对数表示系统的幅频、相频特性,它分为两个图，一个是对数幅频图、一个是相频图，横坐标均为w,纵坐标一个为，一个为，,为相位角；而对数幅相图（nichols plot）则是将幅频和相频在一张图上表示出来了，横坐标是相位角fi(w)、纵坐标是增益K、然后图里面有不同的幅值线(幅值单位dB)。<br>这里的传递函数以惯性环节为例: 1/（Ts+1），T取0.01。</p><h2 id="奈氏图"><a href="#奈氏图" class="headerlink" title="奈氏图"></a>奈氏图</h2><p>分子分母的系数分别存入两个1维矩阵，这里我利用了sys=tf()构造了系统sys。tf转换效果就是构造一些系统，比如你输入两个一维矩阵，那么就可以构造一个分式。具体见这里。nyquist（sys）直接把一个传递函数输入，然后绘出奈氏图[re,im,w]=nyquist(sys)则是根据需要返回传递函数将s替换成jw后的实部、虚部，还有相应的频率。</p><pre><code class="lang-JAVA">num = [1];   %分子den = [0.01 1];   %分母sys = tf(num, den);  %构造系统figure();nyquist(sys);[re, im, w] = nyquist(sys);grid on</code></pre><h2 id="根轨迹图"><a href="#根轨迹图" class="headerlink" title="根轨迹图"></a>根轨迹图</h2><p>以系统G(S)=K(s+1)/(s^3+2s^2)为例思路同上，对分子分母分别构造矩阵记为m,n    </p><pre><code class="lang-JAVA">m=[1 1]n=[1 2 0 0]rlocus(m,n)</code></pre><p><img src="https://files.catbox.moe/wozlis.png" alt="G(S)=K(s+1)/(s^3+2*s^2)的根轨迹"><br>图中点的参数grain值就是K值<br><a href="https://www.bilibili.com/video/BV1sV411x7t6/?spm_id_from=333.1007.top_right_bar_window_history.content.click&amp;vd_source=ea78e03d02c651ab9a1849ee5454e98b">参考链接</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="绘图简介"><a href="#绘图简介" class="headerlink" title="绘图简介"></a>绘图简介</h1><p>在复平面上表示传递函数的幅值相位角随频率的改变而改变的图就是nyquist图（奈奎斯特图，奈氏图），表示控制系统的幅相频率特性，横坐标U(real number)纵坐标jV(imaginary number)；伯德图(bode)利用对数表示系统的幅频、相频特性,它分为两个图，一个是对数幅频图、一个是相频图，横坐标均为w,纵坐标一个为，一个为，,为相位角；而对数幅相图（nichols plot）则是将幅频和相频在一张图上表示出来了，横坐标是相位角fi(w)、纵坐标是增益K、然后图里面有不同的幅值线(幅值单位dB)。<br>这里的传递函数以惯性环节为例: 1/（Ts+1），T取0.01。</p><h1 id="奈氏图"><a href="#奈氏图" class="headerlink" title="奈氏图"></a>奈氏图</h1><p>分子分母的系数分别存入两个1维矩阵，这里我利用了sys=tf()构造了系统sys。tf转换效果就是构造一些系统，比如你输入两个一维矩阵，那么就可以构造一个分式。具体见这里。nyquist（sys）直接把一个传递函数输入，然后绘出奈氏图[re,im,w]=nyquist(sys)则是根据需要返回传递函数将s替换成jw后的实部、虚部，还有相应的频率。</p><pre><code>num = [1];   %分子den = [0.01 1];   %分母sys = tf(num, den);  %构造系统figure();nyquist(sys);[re, im, w] = nyquist(sys);grid on</code></pre><h2 id="根轨迹图"><a href="#根轨迹图" class="headerlink" title="根轨迹图"></a>根轨迹图</h2><p>以系统G(S)=K(s+1)/(s^3+2s^2)为例思路同上，对分子分母分别构造矩阵记为m,n   </p><pre><code>m=[1 1]  n=[1 2 0 0]rlocus(m,n)</code></pre><p><img src="https://files.catbox.moe/wozlis.png" alt="G(S)=K(s+1)/(s^3+2*s^2)的根轨迹"><br>图中点的参数grain值就是K值<br><a href="https://www.bilibili.com/video/BV1sV411x7t6/?spm_id_from=333.1007.top_right_bar_window_history.content.click&amp;vd_source=ea78e03d02c651ab9a1849ee5454e98b">参考链接</a></p><h3 id="不知道为啥这两个代码块总是渲染不好，不折腾了"><a href="#不知道为啥这两个代码块总是渲染不好，不折腾了" class="headerlink" title="不知道为啥这两个代码块总是渲染不好，不折腾了"></a>不知道为啥这两个代码块总是渲染不好，不折腾了</h3>]]></content>
       
       
       
