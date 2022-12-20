@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>一文享用小米妙享</title>
+      <link href="/posts/e5785757/"/>
+      <url>/posts/e5785757/</url>
+      
+        <content type="html"><![CDATA[<h1 id="QAQ"><a href="#QAQ" class="headerlink" title="QAQ"></a>QAQ</h1><ol><li>Q:不是小米路由而是比较简陋的软路由支持小米妙享吗？<br>A：支持！但最好是WiFi6</li><li>Q:不是电脑不是WiFi6支持小米妙享吗？<br>A：支持！有线网络即可妙享<br>经过有以上两问可知小米妙享几乎<strong>没有硬件限制</strong>，只要两设备在同一网络环境下即可！</li><li>显示机型不支持？<br>A: <strong><em>伪装机型即可</em></strong><sup>[1]</sup>:华硕笔电按esc进入bios关闭secure boot(安全启动)将小米启动项设为第一优先级，就伪装成小米啦，安全启动不用开启没软用，而且小米启动项为非安全启动项开启会有BUG提示。后续不需要伪装的话最好进PE删了那些文件就行了。建议把win11自动更新驱动关了。</li><li>显示不支持win10？<br>A:酷友说酷比魔方可以伪装系统可以试试看</li><li>没有WiFi和蓝牙？<br>A:实际上有网线就能用，建议模拟一下骗过软件但本人没有实际测试</li></ol><hr><p>以下是一些影响体验的大问题，单独说说:</p><h2 id="无法显示手机镜像？"><a href="#无法显示手机镜像？" class="headerlink" title="无法显示手机镜像？"></a>无法显示手机镜像？</h2><p>换了网络环境手机镜像无法显示，如果提示网络错误，则卸载该版本后使用MIUI+beta最后一版兼容性较强作为过渡包<sup>[2]</sup>，经测试该版本可以正常显示，然后再升级到最新版。</p><h2 id="直接无法拖拽文件？"><a href="#直接无法拖拽文件？" class="headerlink" title="直接无法拖拽文件？"></a>直接无法拖拽文件？</h2><p>暂未修复</p><h3 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h3><p><a href="https://e5.hgez6.top/zh-CN/PC%E8%BD%AF%E4%BB%B6/%E4%BC%AA%E8%A3%85%E5%B0%8F%E7%B1%B3%E7%AC%94%E7%94%B5/">1，2相关文件</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>markdown语法总结和代码块测试</title>
       <link href="/posts/38e6c17c/"/>
       <url>/posts/38e6c17c/</url>
