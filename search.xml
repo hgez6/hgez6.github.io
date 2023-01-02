@@ -4,11 +4,24 @@
   
     
     <entry>
+      <title>win11无损普通账户和管理员权限互相切换</title>
+      <link href="/posts/5e6749ca/"/>
+      <url>/posts/5e6749ca/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言-这个方法不行，会导致无法获取管理员的权限的Bug"><a href="#前言-这个方法不行，会导致无法获取管理员的权限的Bug" class="headerlink" title="前言(这个方法不行，会导致无法获取管理员的权限的Bug)"></a>前言(这个方法不行，会导致无法获取管理员的权限的Bug)</h1><p>使用管理员权限无法打开小米妙享了  </p><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>计算机上面有不一样等级的管理权限，在安装一些软件，或是运行一些程序时，先获得管理员管理权限，才可以执行。一些用户刚触碰win10系统，不知道怎样开展管理员管理权限设置，下面我教你win10系统管理员管理权限如何设置吧。</p><p>1、另外按住快捷键win r开启运行菜单，输入“netplwiz”确定，进入下一步。<br><img src="https://inews.gtimg.com/newsapp_bt/0/13597754713/1000" alt=""></p><p>2、开启用户账号窗口后，将自身的账号选中，进入下一步。<br><img src="https://inews.gtimg.com/newsapp_bt/0/13597755152/1000" alt=""></p><p>3、点一下“属性”，如下图箭头所说处，进入下一步。<br><img src="https://inews.gtimg.com/newsapp_bt/0/13597754754/1000" alt=""></p><p>4、开启属性窗口后，点一下上端“组员”，随后将“管理员”选项选中。选好后，先后点一下“应用”-“确定”。那样管理员管理权限就打开了，进入下一步。<br><img src="https://inews.gtimg.com/newsapp_bt/0/13597754815/1000" alt=""></p><h3 id="BUG"><a href="#BUG" class="headerlink" title="BUG"></a>BUG</h3><p>使用上面的方法就改不回管理员权限了，提示权限不足</p><h3 id="解决BUG并使用新方法"><a href="#解决BUG并使用新方法" class="headerlink" title="解决BUG并使用新方法"></a>解决BUG并使用新方法</h3><p>进入PE密码管理器解锁原生管理员账号，登录此账号开启本地账号的管理员权限，但不要全部使用管理员权限运行软件即可。<br><a href="https://zhuanlan.zhihu.com/p/67899637">参考此链接的方法三</a></p><h2 id="方法三：修改组注册表"><a href="#方法三：修改组注册表" class="headerlink" title="方法三：修改组注册表"></a>方法三：修改组注册表</h2><p>注意：修改注册表有可能会造成系统异常或无法进入，建议修改前备份电脑中的重要资料  。</p><p>【Win】+【R】打开“运行”，输入：【regedit】回车，进入注册表编辑器。依次打开：  </p><p>【HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System】，在右侧找到【FilterAdministratorToken】，双击后将数值数据改为【1】并【确定】。<br>可直接在powershell使用以下命令  </p><pre><code>reg.exe add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v FilterAdministratorToken /t REG_DWORD /d 1</code></pre><p>若没有“FilterAdministratorToken”，则在空白处点击鼠标右键，【新建】【DWORD（32位）值】，并更名为【FilterAdministratorToken】，双击将其数值数据改为【1】。  </p><p>改完后，还要改另外一个，也是一样，依次找到：  </p><p>【HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\UIPI】，在右边有个【默认】项，双击将值改成【1】。完成后重启。<br><img src="https://pic1.zhimg.com/80/v2-003a56c51d87028bdc7fc758ebdfa700_720w.webp" alt="如图"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>一文享用小米妙享</title>
       <link href="/posts/e5785757/"/>
       <url>/posts/e5785757/</url>
       
-        <content type="html"><![CDATA[<h1 id="QAQ"><a href="#QAQ" class="headerlink" title="QAQ"></a>QAQ</h1><ol><li>Q:不是小米路由而是比较简陋的软路由支持小米妙享吗？<br>A：支持！但最好是WiFi6</li><li>Q:不是电脑不是WiFi6支持小米妙享吗？<br>A：支持！有线网络即可妙享<br>经过有以上两问可知小米妙享几乎<strong>没有硬件限制</strong>，只要两设备在同一网络环境下即可！</li><li>显示机型不支持？<br>A: <strong><em>伪装机型即可</em></strong><sup>[1]</sup>:华硕笔电按esc进入bios关闭secure boot(安全启动)将小米启动项设为第一优先级，就伪装成小米啦，安全启动不用开启没软用，而且小米启动项为非安全启动项开启会有BUG提示。后续不需要伪装的话最好进PE删了那些文件就行了。建议把win11自动更新驱动关了。</li><li>显示不支持win10？<br>A:酷友说酷比魔方可以伪装系统可以试试看</li><li>没有WiFi和蓝牙？<br>A:实际上有网线就能用，建议模拟一下骗过软件但本人没有实际测试</li></ol><hr><p>以下是一些影响体验的大问题，单独说说:</p><h2 id="无法显示手机镜像？"><a href="#无法显示手机镜像？" class="headerlink" title="无法显示手机镜像？"></a>无法显示手机镜像？</h2><p>换了网络环境手机镜像无法显示，如果提示网络错误，则卸载该版本后使用MIUI+beta最后一版兼容性较强作为过渡包<sup>[2]</sup>，经测试该版本可以正常显示，然后再升级到最新版。</p><h2 id="直接无法拖拽文件？"><a href="#直接无法拖拽文件？" class="headerlink" title="直接无法拖拽文件？"></a>直接无法拖拽文件？</h2><p>暂未修复</p><h3 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h3><p><a href="https://e5.hgez6.top/zh-CN/PC%E8%BD%AF%E4%BB%B6/%E4%BC%AA%E8%A3%85%E5%B0%8F%E7%B1%B3%E7%AC%94%E7%94%B5/">1，2相关文件</a></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="QAQ"><a href="#QAQ" class="headerlink" title="QAQ"></a>QAQ</h1><ol><li>Q:不是小米路由而是比较简陋的软路由支持小米妙享吗？<br>A：支持！但最好是WiFi6</li><li>Q:不是电脑不是WiFi6支持小米妙享吗？<br>A：支持！有线网络即可妙享<br>经过有以上两问可知小米妙享几乎<strong>没有硬件限制</strong>，只要两设备在同一网络环境下即可！</li><li>显示机型不支持？<br>A: <strong><em>伪装机型即可</em></strong><sup>[1]</sup>:华硕笔电按esc进入bios关闭secure boot(安全启动)将小米启动项设为第一优先级，就伪装成小米啦，安全启动不用开启没软用，而且小米启动项为非安全启动项开启会有BUG提示。后续不需要伪装的话最好进PE删了那些文件就行了。建议把win11自动更新驱动关了。</li><li>显示不支持win10？<br>A:酷友说酷比魔方可以伪装系统可以试试看</li><li>没有WiFi和蓝牙？<br>A:实际上有网线就能用，建议模拟一下骗过软件但本人没有实际测试</li></ol><hr><p>以下是一些影响体验的大问题，单独说说:</p><h2 id="无法显示手机镜像？"><a href="#无法显示手机镜像？" class="headerlink" title="无法显示手机镜像？"></a>无法显示手机镜像？</h2><p>换了网络环境手机镜像无法显示，如果提示网络错误，则卸载该版本后使用MIUI+beta最后一版兼容性较强作为过渡包<sup>[2]</sup>，经测试该版本可以正常显示，然后再升级到最新版。</p><h2 id="直接无法拖拽文件？"><a href="#直接无法拖拽文件？" class="headerlink" title="直接无法拖拽文件？"></a>直接无法拖拽文件？</h2><p>和模拟机型有关，模拟的机型建议和本机蓝牙差不多，我不用机型模拟加28版本妙享反而能用。卸载小米妙享记得删除系统盘下<code>C:\ProgramData\MI</code>缓存文件!如果不行还建议删除<code>C:\ProgramData\Timi Personal Computing</code><br>由于本机蓝牙4.x,小米官方支持的列表机型为5.x故导致机型模拟后互传无法使用，我们每次升级的时候进入disG软件改一下机型重启，然后正常用即可！<br>经测试该方法可用，互传和镜像均可用，但目前不能同时用。</p><h2 id="最好设置成小米妙享默认核显，防火墙在专用和公用网络放行所有相关组件"><a href="#最好设置成小米妙享默认核显，防火墙在专用和公用网络放行所有相关组件" class="headerlink" title="最好设置成小米妙享默认核显，防火墙在专用和公用网络放行所有相关组件"></a>最好设置成小米妙享默认核显，防火墙在专用和公用网络放行所有相关组件</h2><h3 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h3><p><a href="https://e5.hgez6.top/zh-CN/PC%E8%BD%AF%E4%BB%B6/%E4%BC%AA%E8%A3%85%E5%B0%8F%E7%B1%B3%E7%AC%94%E7%94%B5/">1，2相关文件</a></p>]]></content>
       
       
       
