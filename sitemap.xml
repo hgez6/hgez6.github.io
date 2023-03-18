@@ -146,15 +146,6 @@
   </url>
   
   <url>
-    <loc>https://www.hgez6.top/life/movies/index.html</loc>
-    
-    <lastmod>2023-03-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.hgez6.top/box/gallery/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
@@ -165,6 +156,15 @@
   
   <url>
     <loc>https://www.hgez6.top/life/games/index.html</loc>
+    
+    <lastmod>2023-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hgez6.top/life/movies/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
@@ -1523,14 +1523,14 @@
   </url>
   
   <url>
-    <loc>https://www.hgez6.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://www.hgez6.top/categories/%E9%81%BF%E5%9D%91%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2023-03-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://www.hgez6.top/categories/%E9%81%BF%E5%9D%91%E8%AE%B0%E5%BD%95/</loc>
+    <loc>https://www.hgez6.top/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2023-03-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
