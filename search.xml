@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>0319复试</title>
+      <link href="/posts/3a4f3e4f/"/>
+      <url>/posts/3a4f3e4f/</url>
+      
+        <content type="html"><![CDATA[<h2 id="其他">其他</h2><p><code>href=&quot;javascript:randomPost()&quot;</code>应该是随机文章的跳转<br>其实电脑上的AX201因为信号不好的原因，一直没发挥作用，应该是信号线没连好，只能用小米妙想一键热点连手机，曲线救国。<br>不用小米互传，直接用设备互联里的文件管理就行</p><h2 id="复试">复试</h2><p>箭头方向即为w增大的方向，因为Nyquist曲线关于实轴对称，箭头方向相反，所以一般只绘制w从 0 变化至 +∞ 的Nyquist曲线，每次做完可用<code>matlab</code>验证<br>注意，同一个一阶电路中所有的电压或电流具有相同的时间常数。<br>1法拉(F) = 1×10^6微法(μF)=1000000微法(μF)<br>1微法(μF)=1X10^3纳法(nF)<br>1微法(μF)= 1×10^6皮法(pF)=1000000皮法(pF)法拉是一种国际单位制导出单位。<br>1ma=0.001a</p><h2 id="并联谐振和串联谐振及导纳">并联谐振和串联谐振及导纳</h2><p><img src="https://files.catbox.moe/ervflp.png" alt=""><br><img src="https://files.catbox.moe/lforcj.png" alt=""><br><a href="https://www.hxedu.com.cn/hxedu/w/inputVideo.do?qid=5a79a0187ba1a095017ba454141038be">RLC串并联谐振综合分析-6分20秒处</a></p><div class="video"><video controls preload><source src='https://e5.hgez6.top/api/raw/?path=/picbed/video/%E8%B0%90%E6%8C%AF%E7%BB%BC%E5%90%88_x264.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>专业课笔试0318整理</title>
       <link href="/posts/21e80f5c/"/>
       <url>/posts/21e80f5c/</url>

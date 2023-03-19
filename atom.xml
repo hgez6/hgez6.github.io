@@ -6,7 +6,7 @@
   <link href="https://www.hgez6.top/atom.xml" rel="self"/>
   
   <link href="https://www.hgez6.top/"/>
-  <updated>2023-03-18T13:10:02.857Z</updated>
+  <updated>2023-03-19T04:16:10.463Z</updated>
   <id>https://www.hgez6.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0319复试</title>
+    <link href="https://www.hgez6.top/posts/3a4f3e4f/"/>
+    <id>https://www.hgez6.top/posts/3a4f3e4f/</id>
+    <published>2023-03-19T01:34:00.000Z</published>
+    <updated>2023-03-19T04:16:10.463Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="其他">其他</h2><p><code>href=&quot;javascript:randomPost()&quot;</code>应该是随机文章的跳转<br>其实电脑上的AX201因为信号不好的原因，一直没发挥作用，应该是信号线没连好，只能用小米妙想一键热点连手机，曲线救国。<br>不用小米互传，直接用设备互联里的文件管理就行</p><h2 id="复试">复试</h2><p>箭头方向即为w增大的方向，因为Nyquist曲线关于实轴对称，箭头方向相反，所以一般只绘制w从 0 变化至 +∞ 的Nyquist曲线，每次做完可用<code>matlab</code>验证<br>注意，同一个一阶电路中所有的电压或电流具有相同的时间常数。<br>1法拉(F) = 1×10^6微法(μF)=1000000微法(μF)<br>1微法(μF)=1X10^3纳法(nF)<br>1微法(μF)= 1×10^6皮法(pF)=1000000皮法(pF)法拉是一种国际单位制导出单位。<br>1ma=0.001a</p><h2 id="并联谐振和串联谐振及导纳">并联谐振和串联谐振及导纳</h2><p><img src="https://files.catbox.moe/ervflp.png" alt=""><br><img src="https://files.catbox.moe/lforcj.png" alt=""><br><a href="https://www.hxedu.com.cn/hxedu/w/inputVideo.do?qid=5a79a0187ba1a095017ba454141038be">RLC串并联谐振综合分析-6分20秒处</a></p><div class="video"><video controls preload><source src='https://e5.hgez6.top/api/raw/?path=/picbed/video/%E8%B0%90%E6%8C%AF%E7%BB%BC%E5%90%88_x264.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;其他&quot;&gt;其他&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;href=&amp;quot;javascript:randomPost()&amp;quot;&lt;/code&gt;应该是随机文章的跳转&lt;br&gt;
+其实电脑上的AX201因为信号不好的原因，一直没发挥作用，应该是信号线没连好，只能用小米妙想一键热</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>专业课笔试0318整理</title>
@@ -432,29 +454,6 @@ A：支持！有线网络即可妙享&lt;br&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;微调&quot;&gt;微调&lt;/h2&gt;
 &lt;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>华为GT2手表添加音乐的正确格式</title>
-    <link href="https://www.hgez6.top/posts/c6a96c35/"/>
-    <id>https://www.hgez6.top/posts/c6a96c35/</id>
-    <published>2022-11-22T23:57:02.000Z</published>
-    <updated>2023-01-24T11:14:53.088Z</updated>
-    
-    <content type="html"><![CDATA[<h1>首先将音频文件放在手机根目录下的文件夹</h1><h1>不是所有的mp3文件都能加进手表</h1><p>如果不能添加显示不支持则用格式工厂转换为<strong>VBR低质量</strong>即可<br><img src="https://files.catbox.moe/erhz0a.png" alt=""><br>输出文件夹选择E/FFOUT不要在源文件夹输出防止混淆！</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1&gt;首先将音频文件放在手机根目录下的文件夹&lt;/h1&gt;
-&lt;h1&gt;不是所有的mp3文件都能加进手表&lt;/h1&gt;
-&lt;p&gt;如果不能添加显示不支持则用格式工厂转换为&lt;strong&gt;VBR低质量&lt;/strong&gt;即可&lt;br&gt;
-&lt;img src=&quot;https://files.catbox.m</summary>
       
     
     
