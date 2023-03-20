@@ -6,7 +6,7 @@
   <link href="https://www.hgez6.top/atom.xml" rel="self"/>
   
   <link href="https://www.hgez6.top/"/>
-  <updated>2023-03-19T12:38:40.372Z</updated>
+  <updated>2023-03-20T13:24:57.895Z</updated>
   <id>https://www.hgez6.top/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0320日志</title>
+    <link href="https://www.hgez6.top/posts/88dfab78/"/>
+    <id>https://www.hgez6.top/posts/88dfab78/</id>
+    <published>2023-03-20T13:04:45.000Z</published>
+    <updated>2023-03-20T13:24:57.895Z</updated>
+    
+    <content type="html"><![CDATA[<h1>0320</h1><p>基尔霍夫第二定律又称基尔霍夫电压定律，简记为KVL</p><h2 id="开发日志">开发日志</h2><p>要想在type=radio类型的圆圈里实现圆圈颜色的对应，需要对特定id加入css代码支持，这里要注意类似的css代码在gulp压缩时会被合并导致有Bug，使用<code>！</code>排除<br>id对应css中的#,<a href="http://xn--class-ry8it9m.xxx">class对应.xxx</a><br>博客全部开发结束</p><h2 id="今天去学校学生证忘注册了，做事情能不能严谨一点！">今天去学校学生证忘注册了，做事情能不能严谨一点！</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;0320&lt;/h1&gt;
+&lt;p&gt;基尔霍夫第二定律又称基尔霍夫电压定律，简记为KVL&lt;/p&gt;
+&lt;h2 id=&quot;开发日志&quot;&gt;开发日志&lt;/h2&gt;
+&lt;p&gt;要想在type=radio类型的圆圈里实现圆圈颜色的对应，需要对特定id加入css代码支持，这里要注意类似的css代码在gulp压缩</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>0319复试</title>
@@ -427,35 +450,6 @@ A：支持！有线网络即可妙享&lt;br&gt;
 &lt;p&gt;是因为最新的N11T自带的主题壁纸把超级壁纸接口砍了。用OLED版本的主题壁纸配合壁纸即可！&lt;br&gt;
 二者缺一不可&lt;/p&gt;
 &lt;div class=&quot;bt</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>自行车后拨调速</title>
-    <link href="https://www.hgez6.top/posts/d88c0c0/"/>
-    <id>https://www.hgez6.top/posts/d88c0c0/</id>
-    <published>2022-12-02T04:20:50.000Z</published>
-    <updated>2023-01-24T11:17:11.655Z</updated>
-    
-    <content type="html"><![CDATA[<h1>原理</h1><ol><li>拉紧线时，挡位由高变低</li><li>释放线时，挡位由低变高<br>链条若贴紧小轮则容易挡位由低变高<br>链条若贴紧大轮则容易挡位由高变低<br>前变一般不用动</li></ol><h2 id="微调">微调</h2><p>推荐优先使用后拨变速器处的微调螺丝，逆时针为拉紧线（逆时针链条越贴紧大轮），顺时针为释放线（顺时针链条越贴紧小轮），通常骑行久了线会松，因此一般调低挡位会卡顿，此时应逆时针转动微调螺丝。</p><h2 id="后变处的螺丝">后变处的螺丝</h2><p>原理同上：逆时针为拉紧线，顺时针为释放线<br>只是变动会更大一些</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1&gt;原理&lt;/h1&gt;
-&lt;ol&gt;
-&lt;li&gt;拉紧线时，挡位由高变低&lt;/li&gt;
-&lt;li&gt;释放线时，挡位由低变高&lt;br&gt;
-链条若贴紧小轮则容易挡位由低变高&lt;br&gt;
-链条若贴紧大轮则容易挡位由高变低&lt;br&gt;
-前变一般不用动&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;微调&quot;&gt;微调&lt;/h2&gt;
-&lt;</summary>
       
     
     

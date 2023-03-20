@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>0320日志</title>
+      <link href="/posts/88dfab78/"/>
+      <url>/posts/88dfab78/</url>
+      
+        <content type="html"><![CDATA[<h1>0320</h1><p>基尔霍夫第二定律又称基尔霍夫电压定律，简记为KVL</p><h2 id="开发日志">开发日志</h2><p>要想在type=radio类型的圆圈里实现圆圈颜色的对应，需要对特定id加入css代码支持，这里要注意类似的css代码在gulp压缩时会被合并导致有Bug，使用<code>！</code>排除<br>id对应css中的#,<a href="http://xn--class-ry8it9m.xxx">class对应.xxx</a><br>博客全部开发结束</p><h2 id="今天去学校学生证忘注册了，做事情能不能严谨一点！">今天去学校学生证忘注册了，做事情能不能严谨一点！</h2>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>0319复试</title>
       <link href="/posts/3a4f3e4f/"/>
       <url>/posts/3a4f3e4f/</url>
