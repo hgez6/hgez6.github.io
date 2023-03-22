@@ -72,6 +72,12 @@ h1#site-title {
     display: none !important;
   }
 }
+  /*鼠标蓝色圆圈手机端消失*/
+@media screen and (max-width: 768px) {
+  #cursor {
+    display: none !important;
+  }
+}
 
 
 /* 迷你音乐吸底 */
