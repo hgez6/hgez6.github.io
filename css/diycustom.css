@@ -22,7 +22,9 @@
   --zt-cuxitj: 400px;
   /* --card-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.06); 这个不影响*/
   /* --card-hover-box-shadow: 0 3px 8px 6px rgba(24, 240, 31, 0.6); */
-  --article-content-bgcolor: #e981f4
+  --article-content-bgcolor: #e981f4;
+  /* 文章默认宽度设置 */
+  --wzkg-width: 74%;
 }   
 
 @font-face{
@@ -278,3 +280,10 @@ input[name="colorsby"] {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   } */ 
+/* .layout>div#post {
+    width: var(--wzkg-width);
+
+} */
+#post {
+  width: var(--wzkg-width);
+} 
