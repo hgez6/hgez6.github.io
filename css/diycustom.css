@@ -17,6 +17,8 @@
   --heo-logo-color:linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
   --style-border:1px solid var(--heo-card-border);
   --style-border-hover:1px solid var(--heo-theme); */
+  --first-child-order: 2;
+  --recent-post-item-margin: 0px 0px 20px 1%;
   --bolang-kg: null;
   --zt-dx: 25px;
   --zt-cuxitj: 400px;
