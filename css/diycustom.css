@@ -287,3 +287,20 @@ input[name="colorsby"] {
 #post {
   width: var(--wzkg-width);
 } 
+/* 移植于原作者侧栏显隐等 */
+.layout:not(:has(#page)) {
+  justify-content: var(--layout-justify-content)
+}
+.layout:not(:has(#page))>.aside-content {
+  display: var(--aside-content-display)
+}
+.layout>div:first-child {
+  order: var(--first-child-order)
+}
+@media screen and (min-width: 1069px) {
+  .recent-posts .recent-post-item {
+      margin:var(--recent-post-item-margin)
+  }
+}
+
+
