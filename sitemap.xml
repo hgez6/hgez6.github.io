@@ -641,24 +641,6 @@
   </url>
   
   <url>
-    <loc>https://www.hgez6.top/social/fcircle/index.html</loc>
-    
-    <lastmod>2023-03-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.hgez6.top/social/link/index.html</loc>
-    
-    <lastmod>2023-03-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.hgez6.top/site/census/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
@@ -669,6 +651,24 @@
   
   <url>
     <loc>https://www.hgez6.top/site/time/index.html</loc>
+    
+    <lastmod>2023-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hgez6.top/social/fcircle/index.html</loc>
+    
+    <lastmod>2023-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.hgez6.top/social/link/index.html</loc>
     
     <lastmod>2023-03-07</lastmod>
     
