@@ -67,7 +67,7 @@ h1#site-title {
 }
 /* 天气开关插装 */
 #he-plugin-simple {
-  /* display: table */
+  position: relative;
 }
 @media screen and (max-width: 768px) {
   #ft > .ft-item-2 {
