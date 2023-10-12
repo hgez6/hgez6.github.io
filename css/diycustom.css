@@ -65,7 +65,10 @@ h1#site-title {
     display: none !important;
   }
 }
-
+/* 天气开关插装 */
+#he-plugin-simple {
+  /* display: table */
+}
 @media screen and (max-width: 768px) {
   #ft > .ft-item-2 {
     display: none !important;
