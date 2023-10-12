@@ -68,6 +68,7 @@ h1#site-title {
 /* 天气开关插装 */
 #he-plugin-simple {
   position: relative;
+  display: 
 }
 @media screen and (max-width: 768px) {
   #ft > .ft-item-2 {
