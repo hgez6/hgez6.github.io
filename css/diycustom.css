@@ -27,6 +27,8 @@
   --article-content-bgcolor: #e981f4;
   /* 文章默认宽度设置 */
   --wzkg-width: 74%;
+  /* 天气开关变量 */
+  --tq-kg: table; 
 }   
 
 @font-face{
@@ -68,7 +70,7 @@ h1#site-title {
 /* 天气开关插装 */
 #he-plugin-simple {
   position: relative;
-  display: 
+  display: var(--tq-kg);
 }
 @media screen and (max-width: 768px) {
   #ft > .ft-item-2 {
