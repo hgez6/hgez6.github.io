@@ -1,0 +1,315 @@
+
+ /* 边缘高亮 */
+:root {
+  /* --heo-white:#fff;
+  --heo-black:#000;
+  --heo-none:rgba(0, 0, 0, 0);
+  --heo-gray:#999999;
+  --heo-yellow:#ffc93e;
+  --heo-main:#007AFF;
+  --heo-shadow-main:0 8px 12px -3px rgba(40, 109, 234, .20);
+  --heo-shadow-blue:0 8px 12px -3px rgba(40, 109, 234, .20);
+  --heo-shadow-white:0 8px 12px -3px rgba(255, 255, 255, .20);
+  --heo-shadow-black:0 0 12px 4px rgba(0, 0, 0, .05);
+  --heo-shadow-yellow:0px 38px 77px -26px rgba(255, 201, 62, .12);
+  --heo-shadow-red:0 8px 12px -3px #ee7d7936;
+  --heo-shadow-green:0 8px 12px -3px #87ee7936;
+  --heo-logo-color:linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
+  --style-border:1px solid var(--heo-card-border);
+  --style-border-hover:1px solid var(--heo-theme); */
+  --first-child-order: 2;
+  --recent-post-item-margin: 0px 0px 20px 1%;
+  --bolang-kg: null;
+  --zt-dx: 25px;
+  --zt-cuxitj: 400px;
+  /* --card-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.06); 这个不影响*/
+  /* --card-hover-box-shadow: 0 3px 8px 6px rgba(24, 240, 31, 0.6); */
+  --article-content-bgcolor: #e981f4;
+  /* 文章默认宽度设置 */
+  --wzkg-width: 74%;
+
+}   
+
+@font-face{
+   font-family:'bangshu' ;  
+   /* src:url('/fonts/diyxingshu.ttf');  */
+   src:url(/fontsdest/bangshu.ttf); 
+   font-display: auto; 
+ 
+ } 
+
+
+
+  /* body  
+
+/* #article-container {
+  font-family: 'diyziti';
+}  */
+/* 全局使用去除波浪边缘线 */
+/* #body {
+  font-family: 'HarmonyOS';
+}  */
+#article-container {
+  font-size: var(--zt-dx);
+  font-weight: var(--zt-cuxitj);
+} 
+
+h1#site-title {
+    font-family: 'bangshu';
+  }  
+#nav #site-name{
+    font-family: 'bangshu';
+  }  
+  /*和风天气,fps,推荐友链，徽标手机端消失*/
+@media screen and (max-width: 768px) {
+  #he-plugin-simple {
+    display: none !important;
+  }
+}
+/* 天气开关插装 */
+#he-plugin-simple {
+  
+
+  position: relative;
+
+}
+@media screen and (max-width: 768px) {
+  #ft > .ft-item-2 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  p#ghbdages {
+    display: none !important;
+  }
+}
+  /*鼠标蓝色圆圈手机端消失*/
+@media screen and (max-width: 768px) {
+  #cursor {
+    display: none !important;
+  }
+}
+
+
+/* 迷你音乐吸底 */
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  /* right: 66px !important; */
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  /* right: 0 !important;右侧无效 */
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+}
+
+/* 边缘高亮色选择圆圈的重要插桩 */
+input[name="colorsby"] {
+  margin-right: 15px;
+  min-width: 1rem;
+  height: 1rem;
+  appearance: none;
+  -webkit-appearance: none;
+  border-radius: 50%;
+}
+#redby {
+  border: 3px solid var(--color-red);
+}
+#orangeby {
+  border: 3px solid var(--color-orange);
+}
+#yellowby {
+  border: 3px solid var(--color-yellow);
+}
+#greenby {
+  border: 3px solid var(--color-green);
+}
+#blueby {
+  border: 3px solid var(--color-blue);
+}
+#purpleby {
+  border: 3px solid var(--color-purple);
+}
+#pinkby {
+  border: 3px solid var(--color-pink);
+}
+#heoblueby {
+  border: 3px solid var(--color-heoblue);
+}
+#darkblueby {
+  border: 3px solid var(--color-darkblue);
+}
+#blackby {
+  border: 3px solid var(--color-black);
+}
+#blackgrayby {
+  border: 3px solid var(--color-blackgray);
+}
+#purpleby:checked {
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 50%;
+  border: 3px solid var(--color-purple);
+  background-color: var(--color-purple);
+}
+#redby:checked {
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 50%;
+  border: 3px solid var(--color-red);
+  background-color: var(--color-red);
+}
+#orangeby:checked {
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 50%;
+  border: 3px solid var(--color-orange);
+  background-color: var(--color-orange);
+}
+#yellowby:checked {
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 50%;
+  border: 3px solid var(--color-yellow);
+  background-color: var(--color-yellow);
+}
+#greenby:checked {
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 50%;
+  border: 3px solid var(--color-green);
+  background-color: var(--color-green);
+}
+#blueby:checked {
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 50%;
+  border: 3px solid var(--color-blue);
+  background-color: var(--color-blue);
+}
+#pinkby:checked {
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 50%;
+  border: 3px solid var(--color-pink);
+  background-color: var(--color-pink);
+}
+#heoblueby:checked {
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 50%;
+  border: 3px solid var(--color-heoblue);
+  background-color: var(--color-heoblue);
+}
+#darkblueby:checked {
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 50%;
+  border: 3px solid var(--color-darkblue);
+  background-color: var(--color-darkblue);
+}
+#blackby:checked {
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 50%;
+  border: 3px solid var(--color-black);
+  background-color: var(--color-black);
+}
+#blackgrayby:checked {
+  box-shadow: 0 0 0 2px #fff inset;
+  border-radius: 50%;
+  border: 3px solid var(--color-blackgray);
+  background-color: var(--color-blackgray);
+}
+
+/* @media screen and (max-width: 768px) {
+  #article-container {
+    font-size: var(--zt-dx);
+  } 
+} */
+
+/*蝴蝶iconfont默认样式*/
+
+
+/* 鱼塘固定宽度不可与现有页脚共存弃用 */
+/* canvas:not(#ribbon-canvas), #web_bg {
+  margin-bottom: -0.5rem;
+  display: block;
+  width: 100%;
+  height: 100px
+} */
+
+  /* 调整页脚阴影透明度移除 */
+  /* #footer{
+    background: transparent!important;
+  } */
+  /* 页脚黑色透明玻璃效果移除 */
+  /* #footer::before{
+      background: transparent!important;
+    } */
+/* #footer-wrap{
+  background-color: alpha(dark-black, .1)
+
+} */
+
+  /* 10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果  #page-header.post-bg,*/
+
+/* #recent-posts > .recent-post-item .post_cover img.post_bg {
+    -webkit-animation: imgblur .3s 1 ease-in-out;
+    animation: imgblur .3s 1 ease-in-out;
+}
+@keyframes imgblur {
+  0% {
+    filter: blur(5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+
+ @-webkit-keyframes imgblur {
+  0% {
+    -webkit-filter: blur(5px);
+  }
+  100% {
+    -webkit-filter: blur(0px);
+  }
+}   */
+
+
+
+
+
+
+  /* 选中文本的颜色
+  ::-moz-selection { 
+	color: #fff;
+	background-color: #FCA4D4;
+  } */
+
+/* 阿里矢量图标库法1 https://akilar.top/posts/d2ebecef/ */
+/* @import "//at.alicdn.com/t/font_3148613_olom2xkeqi.css";
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 3em;
+  /* 可以定义图标大小 */
+  /* font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  } */ 
+/* .layout>div#post {
+    width: var(--wzkg-width);
+
+} */
+#post {
+  width: var(--wzkg-width);
+} 
+/* 移植于原作者侧栏显隐等 */
+.layout:not(:has(#page)) {
+  justify-content: var(--layout-justify-content)
+}
+.layout:not(:has(#page))>.aside-content {
+  display: var(--aside-content-display)
+}
+.layout>div:first-child {
+  order: var(--first-child-order)
+}
+@media screen and (min-width: 1069px) {
+  .recent-posts .recent-post-item {
+      margin:var(--recent-post-item-margin)
+  }
+}
+
+

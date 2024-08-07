@@ -1,0 +1,103 @@
+@font-face{
+   font-family:'diyxingshu' ;  
+   /* src:url('/fonts/diyxingshu.ttf');  */
+   src:url('https://unpkg.com/hgefonts@1.0.0/bangshu.ttf'); 
+   font-display: auto; 
+ 
+ } 
+ /* 新增鸿蒙字体 */
+@font-face{
+  font-family: 'HarmonyOS';
+  src: local('HarmonyOS'),    
+  url('https://unpkg.com/zkeq-font@1.0.0/HarmonyOS.ttf') format('truetype');
+  font-display: swap;
+  font-weight: bold;
+  font-style: normal;
+}
+ /* 新增HacK字体 */
+@font-face{
+font-family: 'Hack';
+src: local('Hack'),
+url('https://s-gz-2220-icodeq.oss.dogecdn.com/hack-regular-webfont.woff2') format('truetype');
+font-display: swap;
+font-weight: bold;
+font-style: normal;
+}
+
+
+  /* body  
+
+/* #article-container {
+  font-family: 'diyziti';
+}  */
+/* 全局使用 */
+#body {
+  font-family: 'HarmonyOS';
+} 
+#article-container {
+  font-family: 'HarmonyOS';
+} 
+
+h1#site-title {
+    font-family: 'diyxingshu';
+  }  
+#nav #site-name{
+    font-family: 'diyxingshu';
+  }  
+
+  /* 10s为加载动画的时间，1为加载动画的次数，ease-in-out为动画效果  #page-header.post-bg,*/
+
+/* #recent-posts > .recent-post-item .post_cover img.post_bg {
+    -webkit-animation: imgblur .3s 1 ease-in-out;
+    animation: imgblur .3s 1 ease-in-out;
+}
+@keyframes imgblur {
+  0% {
+    filter: blur(5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+
+ @-webkit-keyframes imgblur {
+  0% {
+    -webkit-filter: blur(5px);
+  }
+  100% {
+    -webkit-filter: blur(0px);
+  }
+}   */
+/* 迷你音乐吸底 */
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+  left: -66px !important;
+  /* right: 66px !important; */
+  /* 默认情况下缩进左侧66px，只留一点箭头部分 */
+}
+
+.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+  left: 0 !important;
+  /* right: 0 !important;右侧无效 */
+  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */
+}
+
+/* 阿里矢量图标外挂标签大小 */
+svg.icon {
+  width: 1.3em; height: 1.3em;
+  /* width和height定义图标的默认宽度和高度*/
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* 阿里矢量图标库法1 https://akilar.top/posts/d2ebecef/ */
+/* @import "//at.alicdn.com/t/font_3148613_olom2xkeqi.css";
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 3em;
+  /* 可以定义图标大小 */
+  /* font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  } */ 
